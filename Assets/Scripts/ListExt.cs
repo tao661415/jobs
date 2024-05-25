@@ -14,6 +14,7 @@ public static class ListExt
         if (collection == null)
             return;
         
+        // 遍历要添加的元素列表，逐个添加到目标列表中
         for (int i = 0; i < collection.Count; i++)
         {
             list.Add(collection[i]);
@@ -29,12 +30,14 @@ public static class ListExt
     /// <returns>插入的位置索引</returns>
     public static int OrderedInsert<T>(this IList<T> list, T element) where T : IComparable<T>
     {
+        // 如果列表为空，直接将元素添加到列表中
         if (list.Count == 0)
         {
             list.Add(element);
             return 0;
         }
 
+        // 使用二分查找找到合适的插入位置
         int start = 0;
         int end = list.Count - 1;
         int index = list.Count;
@@ -54,7 +57,7 @@ public static class ListExt
                 continue;
             }
 
-            // 找到位置了
+            // 找到位置了，插入元素并返回插入的位置索引
             list.Insert(index + 1, element);
             return index + 1;
         }
@@ -76,6 +79,7 @@ public static class ListExt
     /// <returns>被移除的第一个元素</returns>
     public static T Dequeue<T>(this IList<T> list)
     {
+        // 移除并返回列表中的第一个元素
         T element = list[0];
         list.RemoveAt(0);
         return element;

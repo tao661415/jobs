@@ -28,15 +28,18 @@ public abstract class BaseGameModule : MonoBehaviour
     /// <summary>
     /// 模块更新方法，传入 deltaTime
     /// </summary>
+    /// <param name="deltaTime">时间间隔</param>
     protected internal virtual void OnModuleUpdate(float deltaTime) { }
 
     /// <summary>
     /// 模块延迟更新方法，传入 deltaTime
     /// </summary>
+    /// <param name="deltaTime">时间间隔</param>
     protected internal virtual void OnModuleLateUpdate(float deltaTime) { }
 
     /// <summary>
     /// 模块固定更新方法，传入 deltaTime
     /// </summary>
+    /// <param name="deltaTime">时间间隔</param>
     protected internal virtual void OnModuleFixedUpdate(float deltaTime) { }
 }

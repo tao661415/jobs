@@ -12,6 +12,9 @@ public sealed class TGameFramework
     public static bool Initialized { get; private set; }
     private Dictionary<Type, BaseGameModule> m_modules = new Dictionary<Type, BaseGameModule>();
 
+    /// <summary>
+    /// 初始化游戏框架
+    /// </summary>
     public static void Initialize()
     {
         Instance = new TGameFramework();

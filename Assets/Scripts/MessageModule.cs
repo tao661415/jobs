@@ -37,15 +37,24 @@ public class MessageModule : BaseGameModule
     private void LoadAllMessageHandlers()
     {
         globalMessageHandlers = new Dictionary<Type, List<object>>();
+        
+        // 遍历当前程序集中的所有类型
         foreach (var type in Assembly.GetCallingAssembly().GetTypes())
         {
+            // 如果类型为抽象类型，则跳过当前循环
             if (type.IsAbstract)
                 continue;
 
+            // 获取类型的MessageHandlerAttribute特性
             MessageHandlerAttribute messageHandlerAttribute = type.GetCustomAttribute<MessageHandlerAttribute>(true);
+
+            // 如果存在MessageHandlerAttribute特性
             if (messageHandlerAttribute != null)
             {
+                // 创建消息处理器实例
                 IMessageHander messageHandler = Activator.CreateInstance(type) as IMessageHander;
+                
+                // 将消息处理器添加到全局消息处理器字典
                 if (!globalMessageHandlers.ContainsKey(messageHandler.GetHandlerType()))
                 {
                     globalMessageHandlers.Add(messageHandler.GetHandlerType(), new List<object>());
@@ -80,27 +89,31 @@ public class MessageModule : BaseGameModule
     // 发送消息方法
     public async Task Post<T>(T arg) where T : struct
     {
+        // 查找是否有全局消息处理器，如果有则依次处理消息
         if (globalMessageHandlers.TryGetValue(typeof(T), out List<object> globalHandlerList))
         {
             foreach (var handler in globalHandlerList)
             {
+                // 判断是否为MessageHandler<T>类型，然后处理消息
                 if (!(handler is MessageHandler<T> messageHandler))
                     continue;
 
-                await messageHandler.HandleMessage(arg);
+                await messageHandler.HandleMessage(arg); // 处理消息
             }
         }
 
+        // 查找本地消息处理器并处理消息
         if (localMessageHandlers.TryGetValue(typeof(T), out List<object> localHandlerList))
         {
             List<object> list = ListPool<object>.Obtain();
             list.AddRangeNonAlloc(localHandlerList);
             foreach (var handler in list)
             {
+                // 判断是否为MessageHandlerEventArgs<T>类型，然后处理消息
                 if (!(handler is MessageHandlerEventArgs<T> messageHandler))
                     continue;
 
-                await messageHandler(arg);
+                await messageHandler(arg); // 处理消息
             }
             ListPool<object>.Release(list);
         }
