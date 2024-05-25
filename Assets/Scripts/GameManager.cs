@@ -1,7 +1,9 @@
-﻿ using System;
+﻿// 引入必要的命名空间
+using System;
 using System.Collections.Generic;
 using System.Reflection;
 using UnityEngine;
+
 public class GameManager : MonoBehaviour
 {
     /// <summary>
@@ -44,9 +46,12 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
     // public Role MainRole = null; 
 
+    // 在游戏对象唤醒时执行的方法
     private void Awake()
     {
+        // 设置Instance为当前实例
         Instance = this;
+        // 如果TGameFramework实例不为空，则销毁当前游戏对象，防止重复实例化
         if (TGameFramework.Instance != null)
         {
             Destroy(gameObject);
@@ -54,6 +59,7 @@ public class GameManager : MonoBehaviour
         }
 
         activing = true;
+        // 在场景切换时不销毁当前游戏对象
         DontDestroyOnLoad(gameObject);
 #if UNITY_EDITOR
         UnityLog.StartupEditor();
@@ -61,44 +67,55 @@ public class GameManager : MonoBehaviour
             UnityLog.Startup();
 #endif
 
+        // 注册日志接收事件
         Application.logMessageReceived += OnReceiveLog;
+        // 初始化TGameFramework
         TGameFramework.Initialize();
+        // 启动模块
         StartupModules();
+        // 初始化所有模块
         TGameFramework.Instance.InitModules();
-
     }
 
-
+    // 在游戏开始时执行的方法
     private void Start()
     {
+        // 启动所有模块
         TGameFramework.Instance.StartModules();
         // Procedure.StartProcedure().Coroutine();
     }
 
+    // 在每帧更新时执行的方法
     private void Update()
     {
         TGameFramework.Instance.Update();
     }
 
+    // 在每帧更新后执行的方法
     private void LateUpdate()
     {
         TGameFramework.Instance.LateUpdate();
     }
 
+    // 在固定更新时执行的方法
     private void FixedUpdate()
     {
         TGameFramework.Instance.FixedUpdate();
     }
 
+    // 在游戏对象销毁时执行的方法
     private void OnDestroy()
     {
         if (activing)
         {
+            // 移除日志接收事件
             Application.logMessageReceived -= OnReceiveLog;
+            // 销毁TGameFramework实例
             TGameFramework.Instance.Destroy();
         }
     }
 
+    // 在应用程序退出时执行的方法
     private void OnApplicationQuit()
     {
         //UnityLog.Teardown();
@@ -109,8 +126,11 @@ public class GameManager : MonoBehaviour
     /// </summary>
     public void StartupModules()
     {
+        // 初始化模块属性列表
         List<ModuleAttribute> moduleAttrs = new List<ModuleAttribute>();
+        // 获取当前类的所有属性
         PropertyInfo[] propertyInfos = GetType().GetProperties(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static);
+        // 模块的基类类型
         Type baseCompType = typeof(BaseGameModule);
         for (int i = 0; i < propertyInfos.Length; i++)
         {
@@ -172,6 +192,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    // 处理日志消息的方法
     private void OnReceiveLog(string condition, string stackTrace, LogType type)
     {
 #if !UNITY_EDITOR
@@ -182,4 +203,3 @@ public class GameManager : MonoBehaviour
 #endif
     }
 }
-
