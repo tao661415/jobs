@@ -19,11 +19,11 @@ public class GameManager : MonoBehaviour
     /// <summary>
     /// 流程组件
     /// </summary>
-    // [Module(2)]
-    // public static ProcedureModule Procedure
-    // {
-    //     get => TGameFramework.Instance.GetModule<ProcedureModule>();
-    // }
+    [Module(2)]
+    public static ProcedureModule Procedure
+    {
+        get => TGameFramework.Instance.GetModule<ProcedureModule>();
+    }
 
 
     /*
