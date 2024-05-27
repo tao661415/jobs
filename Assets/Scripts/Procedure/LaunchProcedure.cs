@@ -8,7 +8,7 @@ public class LaunchProcedure : BaseProcedure
 {
     public override async Task OnEnterProcedure(object value)
     {
-        Debug.Log("enter init procedure");
+        Debug.Log("enter LaunchProcedure");
         
         await LoadConfigs();
         await ChangeProcedure<InitProcedure>();

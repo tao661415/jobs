@@ -1,5 +1,4 @@
-// 引入Unity编辑器命名空间
-using UnityEditor;
+using UnityEditor; 
 
 namespace TGame.Editor.Inspector
 {
@@ -8,7 +7,6 @@ namespace TGame.Editor.Inspector
     /// 时间: 2018/03/05
     /// 功能: 基础检视面板类
     /// </summary>
-    // 定义基础检视面板类，继承自Unity编辑器的Editor类
     public class BaseInspector : UnityEditor.Editor
     {
         // 是否绘制基础GUI，默认为true

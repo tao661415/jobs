@@ -98,7 +98,8 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         TGameFramework.Instance.StartModules();
-        // Procedure.StartProcedure().Coroutine();
+        Procedure.StartProcedure().Coroutine();
+        Message.Post<MessageType.RequestAllInfo>(new MessageType.RequestAllInfo()).Coroutine();
     }
 
     /// <summary>

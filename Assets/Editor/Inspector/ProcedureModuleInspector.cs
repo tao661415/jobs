@@ -1,8 +1,8 @@
-using System;
+using System; 
 using System.Collections.Generic;
-using TGame.Common;
-using UnityEditor;
-using UnityEngine;
+using TGame.Common; 
+using UnityEditor; 
+using UnityEngine; 
 
 namespace TGame.Editor.Inspector
 {
@@ -11,27 +11,27 @@ namespace TGame.Editor.Inspector
     /// 时间: 2018/03/05
     /// 功能: 检视面板模块编辑器类
     /// </summary>
-    [CustomEditor(typeof(ProcedureModule))]
-    public class ProcedureModuleInspector : BaseInspector
+    [CustomEditor(typeof(ProcedureModule))] // 自定义编辑器，目标为ProcedureModule类
+    public class ProcedureModuleInspector : BaseInspector 
     {
-        private SerializedProperty proceduresProperty;  // 存储程序列表的序列化属性
-        private SerializedProperty defaultProcedureProperty;  // 存储默认程序的序列化属性
+        private SerializedProperty proceduresProperty; // 存储程序列表的序列化属性
+        private SerializedProperty defaultProcedureProperty; // 存储默认程序的序列化属性
 
-        private List<string> allProcedureTypes;  // 存储所有程序类型的列表
+        private List<string> allProcedureTypes; // 存储所有程序类型的列表
 
         protected override void OnInspectorEnable()
         {
             base.OnInspectorEnable();
-            proceduresProperty = serializedObject.FindProperty("proceduresNames");  // 获取程序名称序列化属性
-            defaultProcedureProperty = serializedObject.FindProperty("defaultProcedureName");  // 获取默认程序名称序列化属性
+            proceduresProperty = serializedObject.FindProperty("proceduresNames"); // 获取程序名称序列化属性
+            defaultProcedureProperty = serializedObject.FindProperty("defaultProcedureName"); // 获取默认程序名称序列化属性
 
-            UpdateProcedures();  // 更新程序列表
+            UpdateProcedures(); // 更新程序列表
         }
 
         protected override void OnCompileComplete()
         {
             base.OnCompileComplete();
-            UpdateProcedures();  // 更新程序列表
+            UpdateProcedures(); // 更新程序列表
         }
 
         private void UpdateProcedures()
