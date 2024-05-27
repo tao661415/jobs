@@ -51,9 +51,7 @@ public sealed class TGameFramework
         m_modules.Add(moduleType, module);
     }
 
-    /// <summary>
-    /// 更新游戏框架
-    /// </summary>
+
     public void Update()
     {
         if (!Initialized)
@@ -69,9 +67,7 @@ public sealed class TGameFramework
         }
     }
 
-    /// <summary>
-    /// 晚期更新游戏框架
-    /// </summary>
+
     public void LateUpdate()
     {
         if (!Initialized)
@@ -87,9 +83,6 @@ public sealed class TGameFramework
         }
     }
 
-    /// <summary>
-    /// 固定更新游戏框架
-    /// </summary>
     public void FixedUpdate()
     {
         if (!Initialized)

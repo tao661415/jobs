@@ -17,7 +17,7 @@ namespace TGame.Editor.Inspector
         // 在编辑器中更新检视面板方法
         protected virtual void OnInspectorUpdateInEditor() { }
 
-        // 当启用时调用
+
         private void OnEnable()
         {
             OnInspectorEnable();
@@ -25,8 +25,7 @@ namespace TGame.Editor.Inspector
         }
         // 在启用时调用的虚拟方法
         protected virtual void OnInspectorEnable() { }
-
-        // 当禁用时调用
+        
         private void OnDisable()
         {
             EditorApplication.update -= UpdateEditor;

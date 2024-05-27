@@ -5,16 +5,6 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    /*
-     * GameManager类是游戏管理器，用于初始化和管理各个模块
-     */
-
-    /// <summary>
-    /// 资源组件
-    /// </summary>
-    // [Module(1)]
-    // public static AssetModule Asset { get => TGameFramework.Instance.GetModule<AssetModule>(); }
-
 
     /// <summary>
     /// 流程组件
@@ -26,53 +16,21 @@ public class GameManager : MonoBehaviour
     }
 
 
-    /*
-     * [Module(3)]
-     * public static UIModule UI { get => TGameFramework.Instance.GetModule<UIModule>(); }
-     */
-    /*
-     * [Module(4)]
-     * public static TimeModule Time { get => TGameFramework.Instance.GetModule<TimeModule>(); }
-     */
-    /*
-     * [Module(5)]
-     * public static AudioModule Audio { get => TGameFramework.Instance.GetModule<AudioModule>(); }
-     */
 
-    
+    /// <summary>
+    /// 消息组件
+    /// </summary>
       [Module(7)]
       public static MessageModule Message { get => TGameFramework.Instance.GetModule<MessageModule>(); }
      
 
-    /*
-     * [Module(8)]
-     * public static GameControllersModule Controllers => TGameFramework.Instance.GetModule<GameControllersModule>();
-     */
 
-    /*
-     * [Module(9)]
-     * public static ECSModule ECS { get => TGameFramework.Instance.GetModule<ECSModule>(); }
-     */
 
-    // [Module(97)]
-    // public static NetModule Net { get => TGameFramework.Instance.GetModule<NetModule>(); }
 
-    // [Module(98)]
-    // public static SaveModule Save { get => TGameFramework.Instance.GetModule<SaveModule>(); }
-
-    /// <summary>
-    /// 定时器模块
-    /// </summary>
-    // [Module(99)]
-    // public static ScheduleModule Schedule { get => TGameFramework.Instance.GetModule<ScheduleModule>(); }
     private bool activing;
 
     public static GameManager Instance;
-    // public Role MainRole = null;
-
-    /// <summary>
-    /// 游戏对象唤醒时执行的方法
-    /// </summary>
+    
     private void Awake()
     {
         Instance = this;
@@ -91,44 +49,32 @@ public class GameManager : MonoBehaviour
         StartupModules();
         TGameFramework.Instance.InitModules();
     }
-
-    /// <summary>
-    /// 在游戏开始时执行的方法
-    /// </summary>
+    
     private void Start()
     {
         TGameFramework.Instance.StartModules();
         Procedure.StartProcedure().Coroutine();
         Message.Post<MessageType.RequestAllInfo>(new MessageType.RequestAllInfo()).Coroutine();
     }
-
-    /// <summary>
-    /// 在每帧更新时执行的方法
-    /// </summary>
+    
     private void Update()
     {
         TGameFramework.Instance.Update();
     }
 
-    /// <summary>
-    /// 在每帧更新后执行的方法
-    /// </summary>
+
     private void LateUpdate()
     {
         TGameFramework.Instance.LateUpdate();
     }
 
-    /// <summary>
-    /// 在固定更新时执行的方法
-    /// </summary>
+
     private void FixedUpdate()
     {
         TGameFramework.Instance.FixedUpdate();
     }
 
-    /// <summary>
-    /// 在游戏对象销毁时执行的方法
-    /// </summary>
+
     private void OnDestroy()
     {
         if (activing)

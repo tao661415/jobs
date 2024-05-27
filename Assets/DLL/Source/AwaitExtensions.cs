@@ -22,7 +22,7 @@ public static class AwaitExtensions
         return tcs.Task.GetAwaiter(); // 返回与 TaskCompletionSource 关联的 Task 的 TaskAwaiter
     }
 
-    // 每当您从同步代码调用异步方法时，您可以使用此封装方法
+    // 每当从同步代码调用异步方法时，您可以使用此封装方法
     // 或者可以定义自己的 `async void` 方法，执行给定 Task 上的 await
     public static async void Coroutine(this Task task) // 为从 Task 创建协程的扩展方法
     {
