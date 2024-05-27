@@ -39,10 +39,10 @@ public class GameManager : MonoBehaviour
      * public static AudioModule Audio { get => TGameFramework.Instance.GetModule<AudioModule>(); }
      */
 
-    /*
-     * [Module(7)]
-     * public static MessageModule Message { get => TGameFramework.Instance.GetModule<MessageModule>(); }
-     */
+    
+      [Module(7)]
+      public static MessageModule Message { get => TGameFramework.Instance.GetModule<MessageModule>(); }
+     
 
     /*
      * [Module(8)]
@@ -149,10 +149,7 @@ public class GameManager : MonoBehaviour
     {
         //UnityLog.Teardown();
     }
-
-    /// <summary>
-    /// 初始化模块
-    /// </summary>
+    
     /// <summary>
     /// 初始化模块
     /// </summary>
@@ -210,8 +207,9 @@ public class GameManager : MonoBehaviour
         {
             TGameFramework.Instance.AddModule(moduleAttrs[i].Module);
         }
+        // Message.Post<MessageType.RequestAllInfo>(new MessageType.RequestAllInfo()).Coroutine();
     }
-
+    
     /// <summary>
     /// 模块特性
     /// </summary>

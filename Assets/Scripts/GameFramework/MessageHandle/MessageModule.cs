@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Threading.Tasks;
+using UnityEngine;
 
 // 消息模块类，继承自基础游戏模块
 public class MessageModule : BaseGameModule
@@ -36,6 +37,7 @@ public class MessageModule : BaseGameModule
     // 加载所有消息处理器方法
     private void LoadAllMessageHandlers()
     {
+        
         globalMessageHandlers = new Dictionary<Type, List<object>>();
         
         // 遍历当前程序集中的所有类型
@@ -47,18 +49,19 @@ public class MessageModule : BaseGameModule
 
             // 获取类型的MessageHandlerAttribute特性
             MessageHandlerAttribute messageHandlerAttribute = type.GetCustomAttribute<MessageHandlerAttribute>(true);
-
+           
             // 如果存在MessageHandlerAttribute特性
             if (messageHandlerAttribute != null)
             {
                 // 创建消息处理器实例
                 IMessageHander messageHandler = Activator.CreateInstance(type) as IMessageHander;
-                
                 // 将消息处理器添加到全局消息处理器字典
                 if (!globalMessageHandlers.ContainsKey(messageHandler.GetHandlerType()))
                 {
+                    
                     globalMessageHandlers.Add(messageHandler.GetHandlerType(), new List<object>());
                 }
+                
                 globalMessageHandlers[messageHandler.GetHandlerType()].Add(messageHandler);
             }
         }
