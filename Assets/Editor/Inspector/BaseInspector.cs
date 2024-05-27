@@ -2,11 +2,6 @@ using UnityEditor;
 
 namespace TGame.Editor.Inspector
 {
-    /// <summary>
-    /// 作者: Teddy
-    /// 时间: 2018/03/05
-    /// 功能: 基础检视面板类
-    /// </summary>
     public class BaseInspector : UnityEditor.Editor
     {
         // 是否绘制基础GUI，默认为true

@@ -3,9 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// 作者: Teddy
-/// 时间: 2018/03/02
-/// 功能: 游戏框架类，负责管理游戏模块
+/// 游戏框架类，负责管理游戏模块
 /// </summary>
 public sealed class TGameFramework
 {

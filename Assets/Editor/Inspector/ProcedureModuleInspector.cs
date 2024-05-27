@@ -6,11 +6,6 @@ using UnityEngine;
 
 namespace TGame.Editor.Inspector
 {
-    /// <summary>
-    /// 作者: Teddy
-    /// 时间: 2018/03/05
-    /// 功能: 检视面板模块编辑器类
-    /// </summary>
     [CustomEditor(typeof(ProcedureModule))] // 自定义编辑器，目标为ProcedureModule类
     public class ProcedureModuleInspector : BaseInspector 
     {

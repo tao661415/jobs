@@ -4,9 +4,7 @@ using System.Threading.Tasks;
 using UnityEngine;
 
 /// <summary>
-/// 作者: Teddy
-/// 时间: 2018/03/15
-/// 功能: 处理游戏总流程,控制游戏过程
+/// 处理游戏总流程,控制游戏过程
 /// </summary>
 public partial class ProcedureModule : BaseGameModule
 {

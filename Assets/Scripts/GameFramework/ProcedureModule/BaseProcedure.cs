@@ -1,12 +1,7 @@
-// 引入线程任务命名空间
+
 
 using System.Threading.Tasks;
 
-/// <summary>
-/// 作者: Teddy
-/// 时间: 2018/03/01
-/// 功能: 基础流程类
-/// </summary>
 // 定义抽象基础流程类
 public abstract class BaseProcedure
 {
