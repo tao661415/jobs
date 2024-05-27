@@ -8,7 +8,7 @@ public class LaunchProcedure : BaseProcedure
 {
     public override async Task OnEnterProcedure(object value)
     {
-        UnityLog.Info("enter init procedure");
+        Debug.Log("enter init procedure");
         
         await LoadConfigs();
         await ChangeProcedure<InitProcedure>();
@@ -16,11 +16,11 @@ public class LaunchProcedure : BaseProcedure
 
     private async Task LoadConfigs()
     {
-        UnityLog.Info("===>加载配置");
+        Debug.Log("===>加载配置");
 
 
         await Task.Yield();
-        UnityLog.Info("<===配置加载完毕");
+        Debug.Log("<===配置加载完毕");
 
 
     

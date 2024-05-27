@@ -84,12 +84,7 @@ public class GameManager : MonoBehaviour
 
         activing = true;
         DontDestroyOnLoad(gameObject);
-
-#if UNITY_EDITOR
-        UnityLog.StartupEditor();
-#else
-        UnityLog.Startup();
-#endif
+        
 
         Application.logMessageReceived += OnReceiveLog;
         TGameFramework.Initialize();
@@ -252,7 +247,7 @@ public class GameManager : MonoBehaviour
 #if !UNITY_EDITOR
     if (type == LogType.Exception)
     {
-        UnityLog.Fatal($"{condition}\n{stackTrace}");
+        Debug.Log($"{condition}\n{stackTrace}");
     }
 #endif
     }

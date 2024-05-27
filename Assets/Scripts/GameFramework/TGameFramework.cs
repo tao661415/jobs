@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using UnityEngine;
 
 /// <summary>
 /// 作者: Teddy
@@ -44,7 +45,7 @@ public sealed class TGameFramework
         Type moduleType = module.GetType();
         if (m_modules.ContainsKey(moduleType))
         {
-            UnityLog.Info($"Module添加失败，重复:{moduleType.Name}");
+            Debug.Log($"Module添加失败，重复:{moduleType.Name}");
             return;
         }
         m_modules.Add(moduleType, module);

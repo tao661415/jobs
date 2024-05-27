@@ -111,7 +111,7 @@ public partial class ProcedureModule : BaseGameModule
 
         if (!procedures.TryGetValue(typeof(T), out BaseProcedure procedure))
         {
-            UnityLog.Error($"Change Procedure Failed, Can't find Proecedure:${typeof(T).FullName}");
+            Debug.LogError($"Change Procedure Failed, Can't find Proecedure:${typeof(T).FullName}");
             return;
         }
 
