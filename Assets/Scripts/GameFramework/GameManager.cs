@@ -14,7 +14,8 @@ public class GameManager : MonoBehaviour
     {
         get => TGameFramework.Instance.GetModule<ProcedureModule>();
     }
-
+    [Module(3)]
+    public static UIModule UI { get => TGameFramework.Instance.GetModule<UIModule>(); }
 
 
     /// <summary>
@@ -48,6 +49,7 @@ public class GameManager : MonoBehaviour
         TGameFramework.Initialize();
         StartupModules();
         TGameFramework.Instance.InitModules();
+       
     }
     
     private void Start()
@@ -55,6 +57,7 @@ public class GameManager : MonoBehaviour
         TGameFramework.Instance.StartModules();
         Procedure.StartProcedure().Coroutine();
         Message.Post<MessageType.RequestAllInfo>(new MessageType.RequestAllInfo()).Coroutine();
+        
     }
     
     private void Update()
