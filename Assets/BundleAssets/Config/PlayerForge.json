@@ -1,0 +1,4502 @@
+[
+  {
+    "ID": 1,
+    "Description": "aaaa",
+    "Forge_Level": 1,
+    "Upgrade_Need_Exp": 30,
+    "Atk": 100,
+    "Defensive": 100,
+    "Hp": 2000
+  },
+  {
+    "ID": 2,
+    "Description": "aaaa",
+    "Forge_Level": 2,
+    "Upgrade_Need_Exp": 50,
+    "Atk": 200,
+    "Defensive": 200,
+    "Hp": 4000
+  },
+  {
+    "ID": 3,
+    "Description": "aaaa",
+    "Forge_Level": 3,
+    "Upgrade_Need_Exp": 80,
+    "Atk": 300,
+    "Defensive": 300,
+    "Hp": 6000
+  },
+  {
+    "ID": 4,
+    "Description": "aaaa",
+    "Forge_Level": 4,
+    "Upgrade_Need_Exp": 120,
+    "Atk": 400,
+    "Defensive": 400,
+    "Hp": 8000
+  },
+  {
+    "ID": 5,
+    "Description": "aaaa",
+    "Forge_Level": 5,
+    "Upgrade_Need_Exp": 160,
+    "Atk": 500,
+    "Defensive": 500,
+    "Hp": 10000
+  },
+  {
+    "ID": 6,
+    "Description": "aaaa",
+    "Forge_Level": 6,
+    "Upgrade_Need_Exp": 200,
+    "Atk": 600,
+    "Defensive": 600,
+    "Hp": 12000
+  },
+  {
+    "ID": 7,
+    "Description": "aaaa",
+    "Forge_Level": 7,
+    "Upgrade_Need_Exp": 250,
+    "Atk": 700,
+    "Defensive": 700,
+    "Hp": 14000
+  },
+  {
+    "ID": 8,
+    "Description": "aaaa",
+    "Forge_Level": 8,
+    "Upgrade_Need_Exp": 300,
+    "Atk": 800,
+    "Defensive": 800,
+    "Hp": 16000
+  },
+  {
+    "ID": 9,
+    "Description": "aaaa",
+    "Forge_Level": 9,
+    "Upgrade_Need_Exp": 350,
+    "Atk": 900,
+    "Defensive": 900,
+    "Hp": 18000
+  },
+  {
+    "ID": 10,
+    "Description": "aaaa",
+    "Forge_Level": 10,
+    "Upgrade_Need_Exp": 400,
+    "Atk": 1000,
+    "Defensive": 1000,
+    "Hp": 20000
+  },
+  {
+    "ID": 11,
+    "Description": "aaaa",
+    "Forge_Level": 11,
+    "Upgrade_Need_Exp": 450,
+    "Atk": 1100,
+    "Defensive": 1100,
+    "Hp": 22000
+  },
+  {
+    "ID": 12,
+    "Description": "aaaa",
+    "Forge_Level": 12,
+    "Upgrade_Need_Exp": 500,
+    "Atk": 1200,
+    "Defensive": 1200,
+    "Hp": 24000
+  },
+  {
+    "ID": 13,
+    "Description": "aaaa",
+    "Forge_Level": 13,
+    "Upgrade_Need_Exp": 550,
+    "Atk": 1300,
+    "Defensive": 1300,
+    "Hp": 26000
+  },
+  {
+    "ID": 14,
+    "Description": "aaaa",
+    "Forge_Level": 14,
+    "Upgrade_Need_Exp": 600,
+    "Atk": 1400,
+    "Defensive": 1400,
+    "Hp": 28000
+  },
+  {
+    "ID": 15,
+    "Description": "aaaa",
+    "Forge_Level": 15,
+    "Upgrade_Need_Exp": 650,
+    "Atk": 1500,
+    "Defensive": 1500,
+    "Hp": 30000
+  },
+  {
+    "ID": 16,
+    "Description": "aaaa",
+    "Forge_Level": 16,
+    "Upgrade_Need_Exp": 700,
+    "Atk": 1600,
+    "Defensive": 1600,
+    "Hp": 32000
+  },
+  {
+    "ID": 17,
+    "Description": "aaaa",
+    "Forge_Level": 17,
+    "Upgrade_Need_Exp": 750,
+    "Atk": 1700,
+    "Defensive": 1700,
+    "Hp": 34000
+  },
+  {
+    "ID": 18,
+    "Description": "aaaa",
+    "Forge_Level": 18,
+    "Upgrade_Need_Exp": 800,
+    "Atk": 1800,
+    "Defensive": 1800,
+    "Hp": 36000
+  },
+  {
+    "ID": 19,
+    "Description": "aaaa",
+    "Forge_Level": 19,
+    "Upgrade_Need_Exp": 850,
+    "Atk": 1900,
+    "Defensive": 1900,
+    "Hp": 38000
+  },
+  {
+    "ID": 20,
+    "Description": "aaaa",
+    "Forge_Level": 20,
+    "Upgrade_Need_Exp": 900,
+    "Atk": 2000,
+    "Defensive": 2000,
+    "Hp": 40000
+  },
+  {
+    "ID": 21,
+    "Description": "aaaa",
+    "Forge_Level": 21,
+    "Upgrade_Need_Exp": 950,
+    "Atk": 2100,
+    "Defensive": 2100,
+    "Hp": 42000
+  },
+  {
+    "ID": 22,
+    "Description": "aaaa",
+    "Forge_Level": 22,
+    "Upgrade_Need_Exp": 1000,
+    "Atk": 2200,
+    "Defensive": 2200,
+    "Hp": 44000
+  },
+  {
+    "ID": 23,
+    "Description": "aaaa",
+    "Forge_Level": 23,
+    "Upgrade_Need_Exp": 1050,
+    "Atk": 2300,
+    "Defensive": 2300,
+    "Hp": 46000
+  },
+  {
+    "ID": 24,
+    "Description": "aaaa",
+    "Forge_Level": 24,
+    "Upgrade_Need_Exp": 1100,
+    "Atk": 2400,
+    "Defensive": 2400,
+    "Hp": 48000
+  },
+  {
+    "ID": 25,
+    "Description": "aaaa",
+    "Forge_Level": 25,
+    "Upgrade_Need_Exp": 1150,
+    "Atk": 2500,
+    "Defensive": 2500,
+    "Hp": 50000
+  },
+  {
+    "ID": 26,
+    "Description": "aaaa",
+    "Forge_Level": 26,
+    "Upgrade_Need_Exp": 1200,
+    "Atk": 2600,
+    "Defensive": 2600,
+    "Hp": 52000
+  },
+  {
+    "ID": 27,
+    "Description": "aaaa",
+    "Forge_Level": 27,
+    "Upgrade_Need_Exp": 1250,
+    "Atk": 2700,
+    "Defensive": 2700,
+    "Hp": 54000
+  },
+  {
+    "ID": 28,
+    "Description": "aaaa",
+    "Forge_Level": 28,
+    "Upgrade_Need_Exp": 1300,
+    "Atk": 2800,
+    "Defensive": 2800,
+    "Hp": 56000
+  },
+  {
+    "ID": 29,
+    "Description": "aaaa",
+    "Forge_Level": 29,
+    "Upgrade_Need_Exp": 1350,
+    "Atk": 2900,
+    "Defensive": 2900,
+    "Hp": 58000
+  },
+  {
+    "ID": 30,
+    "Description": "aaaa",
+    "Forge_Level": 30,
+    "Upgrade_Need_Exp": 1400,
+    "Atk": 3000,
+    "Defensive": 3000,
+    "Hp": 60000
+  },
+  {
+    "ID": 31,
+    "Description": "aaaa",
+    "Forge_Level": 31,
+    "Upgrade_Need_Exp": 1450,
+    "Atk": 3100,
+    "Defensive": 3100,
+    "Hp": 62000
+  },
+  {
+    "ID": 32,
+    "Description": "aaaa",
+    "Forge_Level": 32,
+    "Upgrade_Need_Exp": 1500,
+    "Atk": 3200,
+    "Defensive": 3200,
+    "Hp": 64000
+  },
+  {
+    "ID": 33,
+    "Description": "aaaa",
+    "Forge_Level": 33,
+    "Upgrade_Need_Exp": 1550,
+    "Atk": 3300,
+    "Defensive": 3300,
+    "Hp": 66000
+  },
+  {
+    "ID": 34,
+    "Description": "aaaa",
+    "Forge_Level": 34,
+    "Upgrade_Need_Exp": 1600,
+    "Atk": 3400,
+    "Defensive": 3400,
+    "Hp": 68000
+  },
+  {
+    "ID": 35,
+    "Description": "aaaa",
+    "Forge_Level": 35,
+    "Upgrade_Need_Exp": 1650,
+    "Atk": 3500,
+    "Defensive": 3500,
+    "Hp": 70000
+  },
+  {
+    "ID": 36,
+    "Description": "aaaa",
+    "Forge_Level": 36,
+    "Upgrade_Need_Exp": 1700,
+    "Atk": 3600,
+    "Defensive": 3600,
+    "Hp": 72000
+  },
+  {
+    "ID": 37,
+    "Description": "aaaa",
+    "Forge_Level": 37,
+    "Upgrade_Need_Exp": 1750,
+    "Atk": 3700,
+    "Defensive": 3700,
+    "Hp": 74000
+  },
+  {
+    "ID": 38,
+    "Description": "aaaa",
+    "Forge_Level": 38,
+    "Upgrade_Need_Exp": 1800,
+    "Atk": 3800,
+    "Defensive": 3800,
+    "Hp": 76000
+  },
+  {
+    "ID": 39,
+    "Description": "aaaa",
+    "Forge_Level": 39,
+    "Upgrade_Need_Exp": 1850,
+    "Atk": 3900,
+    "Defensive": 3900,
+    "Hp": 78000
+  },
+  {
+    "ID": 40,
+    "Description": "aaaa",
+    "Forge_Level": 40,
+    "Upgrade_Need_Exp": 1900,
+    "Atk": 4000,
+    "Defensive": 4000,
+    "Hp": 80000
+  },
+  {
+    "ID": 41,
+    "Description": "aaaa",
+    "Forge_Level": 41,
+    "Upgrade_Need_Exp": 1950,
+    "Atk": 4100,
+    "Defensive": 4100,
+    "Hp": 82000
+  },
+  {
+    "ID": 42,
+    "Description": "aaaa",
+    "Forge_Level": 42,
+    "Upgrade_Need_Exp": 2000,
+    "Atk": 4200,
+    "Defensive": 4200,
+    "Hp": 84000
+  },
+  {
+    "ID": 43,
+    "Description": "aaaa",
+    "Forge_Level": 43,
+    "Upgrade_Need_Exp": 2050,
+    "Atk": 4300,
+    "Defensive": 4300,
+    "Hp": 86000
+  },
+  {
+    "ID": 44,
+    "Description": "aaaa",
+    "Forge_Level": 44,
+    "Upgrade_Need_Exp": 2100,
+    "Atk": 4400,
+    "Defensive": 4400,
+    "Hp": 88000
+  },
+  {
+    "ID": 45,
+    "Description": "aaaa",
+    "Forge_Level": 45,
+    "Upgrade_Need_Exp": 2150,
+    "Atk": 4500,
+    "Defensive": 4500,
+    "Hp": 90000
+  },
+  {
+    "ID": 46,
+    "Description": "aaaa",
+    "Forge_Level": 46,
+    "Upgrade_Need_Exp": 2200,
+    "Atk": 4600,
+    "Defensive": 4600,
+    "Hp": 92000
+  },
+  {
+    "ID": 47,
+    "Description": "aaaa",
+    "Forge_Level": 47,
+    "Upgrade_Need_Exp": 2250,
+    "Atk": 4700,
+    "Defensive": 4700,
+    "Hp": 94000
+  },
+  {
+    "ID": 48,
+    "Description": "aaaa",
+    "Forge_Level": 48,
+    "Upgrade_Need_Exp": 2300,
+    "Atk": 4800,
+    "Defensive": 4800,
+    "Hp": 96000
+  },
+  {
+    "ID": 49,
+    "Description": "aaaa",
+    "Forge_Level": 49,
+    "Upgrade_Need_Exp": 2350,
+    "Atk": 4900,
+    "Defensive": 4900,
+    "Hp": 98000
+  },
+  {
+    "ID": 50,
+    "Description": "aaaa",
+    "Forge_Level": 50,
+    "Upgrade_Need_Exp": 2400,
+    "Atk": 5000,
+    "Defensive": 5000,
+    "Hp": 100000
+  },
+  {
+    "ID": 51,
+    "Description": "aaaa",
+    "Forge_Level": 51,
+    "Upgrade_Need_Exp": 2450,
+    "Atk": 5100,
+    "Defensive": 5100,
+    "Hp": 102000
+  },
+  {
+    "ID": 52,
+    "Description": "aaaa",
+    "Forge_Level": 52,
+    "Upgrade_Need_Exp": 2500,
+    "Atk": 5200,
+    "Defensive": 5200,
+    "Hp": 104000
+  },
+  {
+    "ID": 53,
+    "Description": "aaaa",
+    "Forge_Level": 53,
+    "Upgrade_Need_Exp": 2550,
+    "Atk": 5300,
+    "Defensive": 5300,
+    "Hp": 106000
+  },
+  {
+    "ID": 54,
+    "Description": "aaaa",
+    "Forge_Level": 54,
+    "Upgrade_Need_Exp": 2600,
+    "Atk": 5400,
+    "Defensive": 5400,
+    "Hp": 108000
+  },
+  {
+    "ID": 55,
+    "Description": "aaaa",
+    "Forge_Level": 55,
+    "Upgrade_Need_Exp": 2650,
+    "Atk": 5500,
+    "Defensive": 5500,
+    "Hp": 110000
+  },
+  {
+    "ID": 56,
+    "Description": "aaaa",
+    "Forge_Level": 56,
+    "Upgrade_Need_Exp": 2700,
+    "Atk": 5600,
+    "Defensive": 5600,
+    "Hp": 112000
+  },
+  {
+    "ID": 57,
+    "Description": "aaaa",
+    "Forge_Level": 57,
+    "Upgrade_Need_Exp": 2750,
+    "Atk": 5700,
+    "Defensive": 5700,
+    "Hp": 114000
+  },
+  {
+    "ID": 58,
+    "Description": "aaaa",
+    "Forge_Level": 58,
+    "Upgrade_Need_Exp": 2800,
+    "Atk": 5800,
+    "Defensive": 5800,
+    "Hp": 116000
+  },
+  {
+    "ID": 59,
+    "Description": "aaaa",
+    "Forge_Level": 59,
+    "Upgrade_Need_Exp": 2850,
+    "Atk": 5900,
+    "Defensive": 5900,
+    "Hp": 118000
+  },
+  {
+    "ID": 60,
+    "Description": "aaaa",
+    "Forge_Level": 60,
+    "Upgrade_Need_Exp": 2900,
+    "Atk": 6000,
+    "Defensive": 6000,
+    "Hp": 120000
+  },
+  {
+    "ID": 61,
+    "Description": "aaaa",
+    "Forge_Level": 61,
+    "Upgrade_Need_Exp": 2950,
+    "Atk": 6100,
+    "Defensive": 6100,
+    "Hp": 122000
+  },
+  {
+    "ID": 62,
+    "Description": "aaaa",
+    "Forge_Level": 62,
+    "Upgrade_Need_Exp": 3000,
+    "Atk": 6200,
+    "Defensive": 6200,
+    "Hp": 124000
+  },
+  {
+    "ID": 63,
+    "Description": "aaaa",
+    "Forge_Level": 63,
+    "Upgrade_Need_Exp": 3050,
+    "Atk": 6300,
+    "Defensive": 6300,
+    "Hp": 126000
+  },
+  {
+    "ID": 64,
+    "Description": "aaaa",
+    "Forge_Level": 64,
+    "Upgrade_Need_Exp": 3100,
+    "Atk": 6400,
+    "Defensive": 6400,
+    "Hp": 128000
+  },
+  {
+    "ID": 65,
+    "Description": "aaaa",
+    "Forge_Level": 65,
+    "Upgrade_Need_Exp": 3150,
+    "Atk": 6500,
+    "Defensive": 6500,
+    "Hp": 130000
+  },
+  {
+    "ID": 66,
+    "Description": "aaaa",
+    "Forge_Level": 66,
+    "Upgrade_Need_Exp": 3200,
+    "Atk": 6600,
+    "Defensive": 6600,
+    "Hp": 132000
+  },
+  {
+    "ID": 67,
+    "Description": "aaaa",
+    "Forge_Level": 67,
+    "Upgrade_Need_Exp": 3250,
+    "Atk": 6700,
+    "Defensive": 6700,
+    "Hp": 134000
+  },
+  {
+    "ID": 68,
+    "Description": "aaaa",
+    "Forge_Level": 68,
+    "Upgrade_Need_Exp": 3300,
+    "Atk": 6800,
+    "Defensive": 6800,
+    "Hp": 136000
+  },
+  {
+    "ID": 69,
+    "Description": "aaaa",
+    "Forge_Level": 69,
+    "Upgrade_Need_Exp": 3350,
+    "Atk": 6900,
+    "Defensive": 6900,
+    "Hp": 138000
+  },
+  {
+    "ID": 70,
+    "Description": "aaaa",
+    "Forge_Level": 70,
+    "Upgrade_Need_Exp": 3400,
+    "Atk": 7000,
+    "Defensive": 7000,
+    "Hp": 140000
+  },
+  {
+    "ID": 71,
+    "Description": "aaaa",
+    "Forge_Level": 71,
+    "Upgrade_Need_Exp": 3450,
+    "Atk": 7100,
+    "Defensive": 7100,
+    "Hp": 142000
+  },
+  {
+    "ID": 72,
+    "Description": "aaaa",
+    "Forge_Level": 72,
+    "Upgrade_Need_Exp": 3500,
+    "Atk": 7200,
+    "Defensive": 7200,
+    "Hp": 144000
+  },
+  {
+    "ID": 73,
+    "Description": "aaaa",
+    "Forge_Level": 73,
+    "Upgrade_Need_Exp": 3550,
+    "Atk": 7300,
+    "Defensive": 7300,
+    "Hp": 146000
+  },
+  {
+    "ID": 74,
+    "Description": "aaaa",
+    "Forge_Level": 74,
+    "Upgrade_Need_Exp": 3600,
+    "Atk": 7400,
+    "Defensive": 7400,
+    "Hp": 148000
+  },
+  {
+    "ID": 75,
+    "Description": "aaaa",
+    "Forge_Level": 75,
+    "Upgrade_Need_Exp": 3650,
+    "Atk": 7500,
+    "Defensive": 7500,
+    "Hp": 150000
+  },
+  {
+    "ID": 76,
+    "Description": "aaaa",
+    "Forge_Level": 76,
+    "Upgrade_Need_Exp": 3700,
+    "Atk": 7600,
+    "Defensive": 7600,
+    "Hp": 152000
+  },
+  {
+    "ID": 77,
+    "Description": "aaaa",
+    "Forge_Level": 77,
+    "Upgrade_Need_Exp": 3750,
+    "Atk": 7700,
+    "Defensive": 7700,
+    "Hp": 154000
+  },
+  {
+    "ID": 78,
+    "Description": "aaaa",
+    "Forge_Level": 78,
+    "Upgrade_Need_Exp": 3800,
+    "Atk": 7800,
+    "Defensive": 7800,
+    "Hp": 156000
+  },
+  {
+    "ID": 79,
+    "Description": "aaaa",
+    "Forge_Level": 79,
+    "Upgrade_Need_Exp": 3850,
+    "Atk": 7900,
+    "Defensive": 7900,
+    "Hp": 158000
+  },
+  {
+    "ID": 80,
+    "Description": "aaaa",
+    "Forge_Level": 80,
+    "Upgrade_Need_Exp": 3900,
+    "Atk": 8000,
+    "Defensive": 8000,
+    "Hp": 160000
+  },
+  {
+    "ID": 81,
+    "Description": "aaaa",
+    "Forge_Level": 81,
+    "Upgrade_Need_Exp": 3950,
+    "Atk": 8100,
+    "Defensive": 8100,
+    "Hp": 162000
+  },
+  {
+    "ID": 82,
+    "Description": "aaaa",
+    "Forge_Level": 82,
+    "Upgrade_Need_Exp": 4000,
+    "Atk": 8200,
+    "Defensive": 8200,
+    "Hp": 164000
+  },
+  {
+    "ID": 83,
+    "Description": "aaaa",
+    "Forge_Level": 83,
+    "Upgrade_Need_Exp": 4050,
+    "Atk": 8300,
+    "Defensive": 8300,
+    "Hp": 166000
+  },
+  {
+    "ID": 84,
+    "Description": "aaaa",
+    "Forge_Level": 84,
+    "Upgrade_Need_Exp": 4100,
+    "Atk": 8400,
+    "Defensive": 8400,
+    "Hp": 168000
+  },
+  {
+    "ID": 85,
+    "Description": "aaaa",
+    "Forge_Level": 85,
+    "Upgrade_Need_Exp": 4150,
+    "Atk": 8500,
+    "Defensive": 8500,
+    "Hp": 170000
+  },
+  {
+    "ID": 86,
+    "Description": "aaaa",
+    "Forge_Level": 86,
+    "Upgrade_Need_Exp": 4200,
+    "Atk": 8600,
+    "Defensive": 8600,
+    "Hp": 172000
+  },
+  {
+    "ID": 87,
+    "Description": "aaaa",
+    "Forge_Level": 87,
+    "Upgrade_Need_Exp": 4250,
+    "Atk": 8700,
+    "Defensive": 8700,
+    "Hp": 174000
+  },
+  {
+    "ID": 88,
+    "Description": "aaaa",
+    "Forge_Level": 88,
+    "Upgrade_Need_Exp": 4300,
+    "Atk": 8800,
+    "Defensive": 8800,
+    "Hp": 176000
+  },
+  {
+    "ID": 89,
+    "Description": "aaaa",
+    "Forge_Level": 89,
+    "Upgrade_Need_Exp": 4350,
+    "Atk": 8900,
+    "Defensive": 8900,
+    "Hp": 178000
+  },
+  {
+    "ID": 90,
+    "Description": "aaaa",
+    "Forge_Level": 90,
+    "Upgrade_Need_Exp": 4400,
+    "Atk": 9000,
+    "Defensive": 9000,
+    "Hp": 180000
+  },
+  {
+    "ID": 91,
+    "Description": "aaaa",
+    "Forge_Level": 91,
+    "Upgrade_Need_Exp": 4450,
+    "Atk": 9100,
+    "Defensive": 9100,
+    "Hp": 182000
+  },
+  {
+    "ID": 92,
+    "Description": "aaaa",
+    "Forge_Level": 92,
+    "Upgrade_Need_Exp": 4500,
+    "Atk": 9200,
+    "Defensive": 9200,
+    "Hp": 184000
+  },
+  {
+    "ID": 93,
+    "Description": "aaaa",
+    "Forge_Level": 93,
+    "Upgrade_Need_Exp": 4550,
+    "Atk": 9300,
+    "Defensive": 9300,
+    "Hp": 186000
+  },
+  {
+    "ID": 94,
+    "Description": "aaaa",
+    "Forge_Level": 94,
+    "Upgrade_Need_Exp": 4600,
+    "Atk": 9400,
+    "Defensive": 9400,
+    "Hp": 188000
+  },
+  {
+    "ID": 95,
+    "Description": "aaaa",
+    "Forge_Level": 95,
+    "Upgrade_Need_Exp": 4650,
+    "Atk": 9500,
+    "Defensive": 9500,
+    "Hp": 190000
+  },
+  {
+    "ID": 96,
+    "Description": "aaaa",
+    "Forge_Level": 96,
+    "Upgrade_Need_Exp": 4700,
+    "Atk": 9600,
+    "Defensive": 9600,
+    "Hp": 192000
+  },
+  {
+    "ID": 97,
+    "Description": "aaaa",
+    "Forge_Level": 97,
+    "Upgrade_Need_Exp": 4750,
+    "Atk": 9700,
+    "Defensive": 9700,
+    "Hp": 194000
+  },
+  {
+    "ID": 98,
+    "Description": "aaaa",
+    "Forge_Level": 98,
+    "Upgrade_Need_Exp": 4800,
+    "Atk": 9800,
+    "Defensive": 9800,
+    "Hp": 196000
+  },
+  {
+    "ID": 99,
+    "Description": "aaaa",
+    "Forge_Level": 99,
+    "Upgrade_Need_Exp": 4850,
+    "Atk": 9900,
+    "Defensive": 9900,
+    "Hp": 198000
+  },
+  {
+    "ID": 100,
+    "Description": "aaaa",
+    "Forge_Level": 100,
+    "Upgrade_Need_Exp": 4900,
+    "Atk": 10000,
+    "Defensive": 10000,
+    "Hp": 200000
+  },
+  {
+    "ID": 101,
+    "Description": "aaaa",
+    "Forge_Level": 101,
+    "Upgrade_Need_Exp": 4950,
+    "Atk": 10100,
+    "Defensive": 10100,
+    "Hp": 202000
+  },
+  {
+    "ID": 102,
+    "Description": "aaaa",
+    "Forge_Level": 102,
+    "Upgrade_Need_Exp": 5000,
+    "Atk": 10200,
+    "Defensive": 10200,
+    "Hp": 204000
+  },
+  {
+    "ID": 103,
+    "Description": "aaaa",
+    "Forge_Level": 103,
+    "Upgrade_Need_Exp": 5050,
+    "Atk": 10300,
+    "Defensive": 10300,
+    "Hp": 206000
+  },
+  {
+    "ID": 104,
+    "Description": "aaaa",
+    "Forge_Level": 104,
+    "Upgrade_Need_Exp": 5100,
+    "Atk": 10400,
+    "Defensive": 10400,
+    "Hp": 208000
+  },
+  {
+    "ID": 105,
+    "Description": "aaaa",
+    "Forge_Level": 105,
+    "Upgrade_Need_Exp": 5150,
+    "Atk": 10500,
+    "Defensive": 10500,
+    "Hp": 210000
+  },
+  {
+    "ID": 106,
+    "Description": "aaaa",
+    "Forge_Level": 106,
+    "Upgrade_Need_Exp": 5200,
+    "Atk": 10600,
+    "Defensive": 10600,
+    "Hp": 212000
+  },
+  {
+    "ID": 107,
+    "Description": "aaaa",
+    "Forge_Level": 107,
+    "Upgrade_Need_Exp": 5250,
+    "Atk": 10700,
+    "Defensive": 10700,
+    "Hp": 214000
+  },
+  {
+    "ID": 108,
+    "Description": "aaaa",
+    "Forge_Level": 108,
+    "Upgrade_Need_Exp": 5300,
+    "Atk": 10800,
+    "Defensive": 10800,
+    "Hp": 216000
+  },
+  {
+    "ID": 109,
+    "Description": "aaaa",
+    "Forge_Level": 109,
+    "Upgrade_Need_Exp": 5350,
+    "Atk": 10900,
+    "Defensive": 10900,
+    "Hp": 218000
+  },
+  {
+    "ID": 110,
+    "Description": "aaaa",
+    "Forge_Level": 110,
+    "Upgrade_Need_Exp": 5400,
+    "Atk": 11000,
+    "Defensive": 11000,
+    "Hp": 220000
+  },
+  {
+    "ID": 111,
+    "Description": "aaaa",
+    "Forge_Level": 111,
+    "Upgrade_Need_Exp": 5450,
+    "Atk": 11100,
+    "Defensive": 11100,
+    "Hp": 222000
+  },
+  {
+    "ID": 112,
+    "Description": "aaaa",
+    "Forge_Level": 112,
+    "Upgrade_Need_Exp": 5500,
+    "Atk": 11200,
+    "Defensive": 11200,
+    "Hp": 224000
+  },
+  {
+    "ID": 113,
+    "Description": "aaaa",
+    "Forge_Level": 113,
+    "Upgrade_Need_Exp": 5550,
+    "Atk": 11300,
+    "Defensive": 11300,
+    "Hp": 226000
+  },
+  {
+    "ID": 114,
+    "Description": "aaaa",
+    "Forge_Level": 114,
+    "Upgrade_Need_Exp": 5600,
+    "Atk": 11400,
+    "Defensive": 11400,
+    "Hp": 228000
+  },
+  {
+    "ID": 115,
+    "Description": "aaaa",
+    "Forge_Level": 115,
+    "Upgrade_Need_Exp": 5650,
+    "Atk": 11500,
+    "Defensive": 11500,
+    "Hp": 230000
+  },
+  {
+    "ID": 116,
+    "Description": "aaaa",
+    "Forge_Level": 116,
+    "Upgrade_Need_Exp": 5700,
+    "Atk": 11600,
+    "Defensive": 11600,
+    "Hp": 232000
+  },
+  {
+    "ID": 117,
+    "Description": "aaaa",
+    "Forge_Level": 117,
+    "Upgrade_Need_Exp": 5750,
+    "Atk": 11700,
+    "Defensive": 11700,
+    "Hp": 234000
+  },
+  {
+    "ID": 118,
+    "Description": "aaaa",
+    "Forge_Level": 118,
+    "Upgrade_Need_Exp": 5800,
+    "Atk": 11800,
+    "Defensive": 11800,
+    "Hp": 236000
+  },
+  {
+    "ID": 119,
+    "Description": "aaaa",
+    "Forge_Level": 119,
+    "Upgrade_Need_Exp": 5850,
+    "Atk": 11900,
+    "Defensive": 11900,
+    "Hp": 238000
+  },
+  {
+    "ID": 120,
+    "Description": "aaaa",
+    "Forge_Level": 120,
+    "Upgrade_Need_Exp": 5900,
+    "Atk": 12000,
+    "Defensive": 12000,
+    "Hp": 240000
+  },
+  {
+    "ID": 121,
+    "Description": "aaaa",
+    "Forge_Level": 121,
+    "Upgrade_Need_Exp": 5950,
+    "Atk": 12100,
+    "Defensive": 12100,
+    "Hp": 242000
+  },
+  {
+    "ID": 122,
+    "Description": "aaaa",
+    "Forge_Level": 122,
+    "Upgrade_Need_Exp": 6000,
+    "Atk": 12200,
+    "Defensive": 12200,
+    "Hp": 244000
+  },
+  {
+    "ID": 123,
+    "Description": "aaaa",
+    "Forge_Level": 123,
+    "Upgrade_Need_Exp": 6050,
+    "Atk": 12300,
+    "Defensive": 12300,
+    "Hp": 246000
+  },
+  {
+    "ID": 124,
+    "Description": "aaaa",
+    "Forge_Level": 124,
+    "Upgrade_Need_Exp": 6100,
+    "Atk": 12400,
+    "Defensive": 12400,
+    "Hp": 248000
+  },
+  {
+    "ID": 125,
+    "Description": "aaaa",
+    "Forge_Level": 125,
+    "Upgrade_Need_Exp": 6150,
+    "Atk": 12500,
+    "Defensive": 12500,
+    "Hp": 250000
+  },
+  {
+    "ID": 126,
+    "Description": "aaaa",
+    "Forge_Level": 126,
+    "Upgrade_Need_Exp": 6200,
+    "Atk": 12600,
+    "Defensive": 12600,
+    "Hp": 252000
+  },
+  {
+    "ID": 127,
+    "Description": "aaaa",
+    "Forge_Level": 127,
+    "Upgrade_Need_Exp": 6250,
+    "Atk": 12700,
+    "Defensive": 12700,
+    "Hp": 254000
+  },
+  {
+    "ID": 128,
+    "Description": "aaaa",
+    "Forge_Level": 128,
+    "Upgrade_Need_Exp": 6300,
+    "Atk": 12800,
+    "Defensive": 12800,
+    "Hp": 256000
+  },
+  {
+    "ID": 129,
+    "Description": "aaaa",
+    "Forge_Level": 129,
+    "Upgrade_Need_Exp": 6350,
+    "Atk": 12900,
+    "Defensive": 12900,
+    "Hp": 258000
+  },
+  {
+    "ID": 130,
+    "Description": "aaaa",
+    "Forge_Level": 130,
+    "Upgrade_Need_Exp": 6400,
+    "Atk": 13000,
+    "Defensive": 13000,
+    "Hp": 260000
+  },
+  {
+    "ID": 131,
+    "Description": "aaaa",
+    "Forge_Level": 131,
+    "Upgrade_Need_Exp": 6450,
+    "Atk": 13100,
+    "Defensive": 13100,
+    "Hp": 262000
+  },
+  {
+    "ID": 132,
+    "Description": "aaaa",
+    "Forge_Level": 132,
+    "Upgrade_Need_Exp": 6500,
+    "Atk": 13200,
+    "Defensive": 13200,
+    "Hp": 264000
+  },
+  {
+    "ID": 133,
+    "Description": "aaaa",
+    "Forge_Level": 133,
+    "Upgrade_Need_Exp": 6550,
+    "Atk": 13300,
+    "Defensive": 13300,
+    "Hp": 266000
+  },
+  {
+    "ID": 134,
+    "Description": "aaaa",
+    "Forge_Level": 134,
+    "Upgrade_Need_Exp": 6600,
+    "Atk": 13400,
+    "Defensive": 13400,
+    "Hp": 268000
+  },
+  {
+    "ID": 135,
+    "Description": "aaaa",
+    "Forge_Level": 135,
+    "Upgrade_Need_Exp": 6650,
+    "Atk": 13500,
+    "Defensive": 13500,
+    "Hp": 270000
+  },
+  {
+    "ID": 136,
+    "Description": "aaaa",
+    "Forge_Level": 136,
+    "Upgrade_Need_Exp": 6700,
+    "Atk": 13600,
+    "Defensive": 13600,
+    "Hp": 272000
+  },
+  {
+    "ID": 137,
+    "Description": "aaaa",
+    "Forge_Level": 137,
+    "Upgrade_Need_Exp": 6750,
+    "Atk": 13700,
+    "Defensive": 13700,
+    "Hp": 274000
+  },
+  {
+    "ID": 138,
+    "Description": "aaaa",
+    "Forge_Level": 138,
+    "Upgrade_Need_Exp": 6800,
+    "Atk": 13800,
+    "Defensive": 13800,
+    "Hp": 276000
+  },
+  {
+    "ID": 139,
+    "Description": "aaaa",
+    "Forge_Level": 139,
+    "Upgrade_Need_Exp": 6850,
+    "Atk": 13900,
+    "Defensive": 13900,
+    "Hp": 278000
+  },
+  {
+    "ID": 140,
+    "Description": "aaaa",
+    "Forge_Level": 140,
+    "Upgrade_Need_Exp": 6900,
+    "Atk": 14000,
+    "Defensive": 14000,
+    "Hp": 280000
+  },
+  {
+    "ID": 141,
+    "Description": "aaaa",
+    "Forge_Level": 141,
+    "Upgrade_Need_Exp": 6950,
+    "Atk": 14100,
+    "Defensive": 14100,
+    "Hp": 282000
+  },
+  {
+    "ID": 142,
+    "Description": "aaaa",
+    "Forge_Level": 142,
+    "Upgrade_Need_Exp": 7000,
+    "Atk": 14200,
+    "Defensive": 14200,
+    "Hp": 284000
+  },
+  {
+    "ID": 143,
+    "Description": "aaaa",
+    "Forge_Level": 143,
+    "Upgrade_Need_Exp": 7050,
+    "Atk": 14300,
+    "Defensive": 14300,
+    "Hp": 286000
+  },
+  {
+    "ID": 144,
+    "Description": "aaaa",
+    "Forge_Level": 144,
+    "Upgrade_Need_Exp": 7100,
+    "Atk": 14400,
+    "Defensive": 14400,
+    "Hp": 288000
+  },
+  {
+    "ID": 145,
+    "Description": "aaaa",
+    "Forge_Level": 145,
+    "Upgrade_Need_Exp": 7150,
+    "Atk": 14500,
+    "Defensive": 14500,
+    "Hp": 290000
+  },
+  {
+    "ID": 146,
+    "Description": "aaaa",
+    "Forge_Level": 146,
+    "Upgrade_Need_Exp": 7200,
+    "Atk": 14600,
+    "Defensive": 14600,
+    "Hp": 292000
+  },
+  {
+    "ID": 147,
+    "Description": "aaaa",
+    "Forge_Level": 147,
+    "Upgrade_Need_Exp": 7250,
+    "Atk": 14700,
+    "Defensive": 14700,
+    "Hp": 294000
+  },
+  {
+    "ID": 148,
+    "Description": "aaaa",
+    "Forge_Level": 148,
+    "Upgrade_Need_Exp": 7300,
+    "Atk": 14800,
+    "Defensive": 14800,
+    "Hp": 296000
+  },
+  {
+    "ID": 149,
+    "Description": "aaaa",
+    "Forge_Level": 149,
+    "Upgrade_Need_Exp": 7350,
+    "Atk": 14900,
+    "Defensive": 14900,
+    "Hp": 298000
+  },
+  {
+    "ID": 150,
+    "Description": "aaaa",
+    "Forge_Level": 150,
+    "Upgrade_Need_Exp": 7400,
+    "Atk": 15000,
+    "Defensive": 15000,
+    "Hp": 300000
+  },
+  {
+    "ID": 151,
+    "Description": "aaaa",
+    "Forge_Level": 151,
+    "Upgrade_Need_Exp": 7450,
+    "Atk": 15100,
+    "Defensive": 15100,
+    "Hp": 302000
+  },
+  {
+    "ID": 152,
+    "Description": "aaaa",
+    "Forge_Level": 152,
+    "Upgrade_Need_Exp": 7500,
+    "Atk": 15200,
+    "Defensive": 15200,
+    "Hp": 304000
+  },
+  {
+    "ID": 153,
+    "Description": "aaaa",
+    "Forge_Level": 153,
+    "Upgrade_Need_Exp": 7550,
+    "Atk": 15300,
+    "Defensive": 15300,
+    "Hp": 306000
+  },
+  {
+    "ID": 154,
+    "Description": "aaaa",
+    "Forge_Level": 154,
+    "Upgrade_Need_Exp": 7600,
+    "Atk": 15400,
+    "Defensive": 15400,
+    "Hp": 308000
+  },
+  {
+    "ID": 155,
+    "Description": "aaaa",
+    "Forge_Level": 155,
+    "Upgrade_Need_Exp": 7650,
+    "Atk": 15500,
+    "Defensive": 15500,
+    "Hp": 310000
+  },
+  {
+    "ID": 156,
+    "Description": "aaaa",
+    "Forge_Level": 156,
+    "Upgrade_Need_Exp": 7700,
+    "Atk": 15600,
+    "Defensive": 15600,
+    "Hp": 312000
+  },
+  {
+    "ID": 157,
+    "Description": "aaaa",
+    "Forge_Level": 157,
+    "Upgrade_Need_Exp": 7750,
+    "Atk": 15700,
+    "Defensive": 15700,
+    "Hp": 314000
+  },
+  {
+    "ID": 158,
+    "Description": "aaaa",
+    "Forge_Level": 158,
+    "Upgrade_Need_Exp": 7800,
+    "Atk": 15800,
+    "Defensive": 15800,
+    "Hp": 316000
+  },
+  {
+    "ID": 159,
+    "Description": "aaaa",
+    "Forge_Level": 159,
+    "Upgrade_Need_Exp": 7850,
+    "Atk": 15900,
+    "Defensive": 15900,
+    "Hp": 318000
+  },
+  {
+    "ID": 160,
+    "Description": "aaaa",
+    "Forge_Level": 160,
+    "Upgrade_Need_Exp": 7900,
+    "Atk": 16000,
+    "Defensive": 16000,
+    "Hp": 320000
+  },
+  {
+    "ID": 161,
+    "Description": "aaaa",
+    "Forge_Level": 161,
+    "Upgrade_Need_Exp": 7950,
+    "Atk": 16100,
+    "Defensive": 16100,
+    "Hp": 322000
+  },
+  {
+    "ID": 162,
+    "Description": "aaaa",
+    "Forge_Level": 162,
+    "Upgrade_Need_Exp": 8000,
+    "Atk": 16200,
+    "Defensive": 16200,
+    "Hp": 324000
+  },
+  {
+    "ID": 163,
+    "Description": "aaaa",
+    "Forge_Level": 163,
+    "Upgrade_Need_Exp": 8050,
+    "Atk": 16300,
+    "Defensive": 16300,
+    "Hp": 326000
+  },
+  {
+    "ID": 164,
+    "Description": "aaaa",
+    "Forge_Level": 164,
+    "Upgrade_Need_Exp": 8100,
+    "Atk": 16400,
+    "Defensive": 16400,
+    "Hp": 328000
+  },
+  {
+    "ID": 165,
+    "Description": "aaaa",
+    "Forge_Level": 165,
+    "Upgrade_Need_Exp": 8150,
+    "Atk": 16500,
+    "Defensive": 16500,
+    "Hp": 330000
+  },
+  {
+    "ID": 166,
+    "Description": "aaaa",
+    "Forge_Level": 166,
+    "Upgrade_Need_Exp": 8200,
+    "Atk": 16600,
+    "Defensive": 16600,
+    "Hp": 332000
+  },
+  {
+    "ID": 167,
+    "Description": "aaaa",
+    "Forge_Level": 167,
+    "Upgrade_Need_Exp": 8250,
+    "Atk": 16700,
+    "Defensive": 16700,
+    "Hp": 334000
+  },
+  {
+    "ID": 168,
+    "Description": "aaaa",
+    "Forge_Level": 168,
+    "Upgrade_Need_Exp": 8300,
+    "Atk": 16800,
+    "Defensive": 16800,
+    "Hp": 336000
+  },
+  {
+    "ID": 169,
+    "Description": "aaaa",
+    "Forge_Level": 169,
+    "Upgrade_Need_Exp": 8350,
+    "Atk": 16900,
+    "Defensive": 16900,
+    "Hp": 338000
+  },
+  {
+    "ID": 170,
+    "Description": "aaaa",
+    "Forge_Level": 170,
+    "Upgrade_Need_Exp": 8400,
+    "Atk": 17000,
+    "Defensive": 17000,
+    "Hp": 340000
+  },
+  {
+    "ID": 171,
+    "Description": "aaaa",
+    "Forge_Level": 171,
+    "Upgrade_Need_Exp": 8450,
+    "Atk": 17100,
+    "Defensive": 17100,
+    "Hp": 342000
+  },
+  {
+    "ID": 172,
+    "Description": "aaaa",
+    "Forge_Level": 172,
+    "Upgrade_Need_Exp": 8500,
+    "Atk": 17200,
+    "Defensive": 17200,
+    "Hp": 344000
+  },
+  {
+    "ID": 173,
+    "Description": "aaaa",
+    "Forge_Level": 173,
+    "Upgrade_Need_Exp": 8550,
+    "Atk": 17300,
+    "Defensive": 17300,
+    "Hp": 346000
+  },
+  {
+    "ID": 174,
+    "Description": "aaaa",
+    "Forge_Level": 174,
+    "Upgrade_Need_Exp": 8600,
+    "Atk": 17400,
+    "Defensive": 17400,
+    "Hp": 348000
+  },
+  {
+    "ID": 175,
+    "Description": "aaaa",
+    "Forge_Level": 175,
+    "Upgrade_Need_Exp": 8650,
+    "Atk": 17500,
+    "Defensive": 17500,
+    "Hp": 350000
+  },
+  {
+    "ID": 176,
+    "Description": "aaaa",
+    "Forge_Level": 176,
+    "Upgrade_Need_Exp": 8700,
+    "Atk": 17600,
+    "Defensive": 17600,
+    "Hp": 352000
+  },
+  {
+    "ID": 177,
+    "Description": "aaaa",
+    "Forge_Level": 177,
+    "Upgrade_Need_Exp": 8750,
+    "Atk": 17700,
+    "Defensive": 17700,
+    "Hp": 354000
+  },
+  {
+    "ID": 178,
+    "Description": "aaaa",
+    "Forge_Level": 178,
+    "Upgrade_Need_Exp": 8800,
+    "Atk": 17800,
+    "Defensive": 17800,
+    "Hp": 356000
+  },
+  {
+    "ID": 179,
+    "Description": "aaaa",
+    "Forge_Level": 179,
+    "Upgrade_Need_Exp": 8850,
+    "Atk": 17900,
+    "Defensive": 17900,
+    "Hp": 358000
+  },
+  {
+    "ID": 180,
+    "Description": "aaaa",
+    "Forge_Level": 180,
+    "Upgrade_Need_Exp": 8900,
+    "Atk": 18000,
+    "Defensive": 18000,
+    "Hp": 360000
+  },
+  {
+    "ID": 181,
+    "Description": "aaaa",
+    "Forge_Level": 181,
+    "Upgrade_Need_Exp": 8950,
+    "Atk": 18100,
+    "Defensive": 18100,
+    "Hp": 362000
+  },
+  {
+    "ID": 182,
+    "Description": "aaaa",
+    "Forge_Level": 182,
+    "Upgrade_Need_Exp": 9000,
+    "Atk": 18200,
+    "Defensive": 18200,
+    "Hp": 364000
+  },
+  {
+    "ID": 183,
+    "Description": "aaaa",
+    "Forge_Level": 183,
+    "Upgrade_Need_Exp": 9050,
+    "Atk": 18300,
+    "Defensive": 18300,
+    "Hp": 366000
+  },
+  {
+    "ID": 184,
+    "Description": "aaaa",
+    "Forge_Level": 184,
+    "Upgrade_Need_Exp": 9100,
+    "Atk": 18400,
+    "Defensive": 18400,
+    "Hp": 368000
+  },
+  {
+    "ID": 185,
+    "Description": "aaaa",
+    "Forge_Level": 185,
+    "Upgrade_Need_Exp": 9150,
+    "Atk": 18500,
+    "Defensive": 18500,
+    "Hp": 370000
+  },
+  {
+    "ID": 186,
+    "Description": "aaaa",
+    "Forge_Level": 186,
+    "Upgrade_Need_Exp": 9200,
+    "Atk": 18600,
+    "Defensive": 18600,
+    "Hp": 372000
+  },
+  {
+    "ID": 187,
+    "Description": "aaaa",
+    "Forge_Level": 187,
+    "Upgrade_Need_Exp": 9250,
+    "Atk": 18700,
+    "Defensive": 18700,
+    "Hp": 374000
+  },
+  {
+    "ID": 188,
+    "Description": "aaaa",
+    "Forge_Level": 188,
+    "Upgrade_Need_Exp": 9300,
+    "Atk": 18800,
+    "Defensive": 18800,
+    "Hp": 376000
+  },
+  {
+    "ID": 189,
+    "Description": "aaaa",
+    "Forge_Level": 189,
+    "Upgrade_Need_Exp": 9350,
+    "Atk": 18900,
+    "Defensive": 18900,
+    "Hp": 378000
+  },
+  {
+    "ID": 190,
+    "Description": "aaaa",
+    "Forge_Level": 190,
+    "Upgrade_Need_Exp": 9400,
+    "Atk": 19000,
+    "Defensive": 19000,
+    "Hp": 380000
+  },
+  {
+    "ID": 191,
+    "Description": "aaaa",
+    "Forge_Level": 191,
+    "Upgrade_Need_Exp": 9450,
+    "Atk": 19100,
+    "Defensive": 19100,
+    "Hp": 382000
+  },
+  {
+    "ID": 192,
+    "Description": "aaaa",
+    "Forge_Level": 192,
+    "Upgrade_Need_Exp": 9500,
+    "Atk": 19200,
+    "Defensive": 19200,
+    "Hp": 384000
+  },
+  {
+    "ID": 193,
+    "Description": "aaaa",
+    "Forge_Level": 193,
+    "Upgrade_Need_Exp": 9550,
+    "Atk": 19300,
+    "Defensive": 19300,
+    "Hp": 386000
+  },
+  {
+    "ID": 194,
+    "Description": "aaaa",
+    "Forge_Level": 194,
+    "Upgrade_Need_Exp": 9600,
+    "Atk": 19400,
+    "Defensive": 19400,
+    "Hp": 388000
+  },
+  {
+    "ID": 195,
+    "Description": "aaaa",
+    "Forge_Level": 195,
+    "Upgrade_Need_Exp": 9650,
+    "Atk": 19500,
+    "Defensive": 19500,
+    "Hp": 390000
+  },
+  {
+    "ID": 196,
+    "Description": "aaaa",
+    "Forge_Level": 196,
+    "Upgrade_Need_Exp": 9700,
+    "Atk": 19600,
+    "Defensive": 19600,
+    "Hp": 392000
+  },
+  {
+    "ID": 197,
+    "Description": "aaaa",
+    "Forge_Level": 197,
+    "Upgrade_Need_Exp": 9750,
+    "Atk": 19700,
+    "Defensive": 19700,
+    "Hp": 394000
+  },
+  {
+    "ID": 198,
+    "Description": "aaaa",
+    "Forge_Level": 198,
+    "Upgrade_Need_Exp": 9800,
+    "Atk": 19800,
+    "Defensive": 19800,
+    "Hp": 396000
+  },
+  {
+    "ID": 199,
+    "Description": "aaaa",
+    "Forge_Level": 199,
+    "Upgrade_Need_Exp": 9850,
+    "Atk": 19900,
+    "Defensive": 19900,
+    "Hp": 398000
+  },
+  {
+    "ID": 200,
+    "Description": "aaaa",
+    "Forge_Level": 200,
+    "Upgrade_Need_Exp": 9900,
+    "Atk": 20000,
+    "Defensive": 20000,
+    "Hp": 400000
+  },
+  {
+    "ID": 201,
+    "Description": "aaaa",
+    "Forge_Level": 201,
+    "Upgrade_Need_Exp": 9950,
+    "Atk": 20100,
+    "Defensive": 20100,
+    "Hp": 402000
+  },
+  {
+    "ID": 202,
+    "Description": "aaaa",
+    "Forge_Level": 202,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 20200,
+    "Defensive": 20200,
+    "Hp": 404000
+  },
+  {
+    "ID": 203,
+    "Description": "aaaa",
+    "Forge_Level": 203,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 20300,
+    "Defensive": 20300,
+    "Hp": 406000
+  },
+  {
+    "ID": 204,
+    "Description": "aaaa",
+    "Forge_Level": 204,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 20400,
+    "Defensive": 20400,
+    "Hp": 408000
+  },
+  {
+    "ID": 205,
+    "Description": "aaaa",
+    "Forge_Level": 205,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 20500,
+    "Defensive": 20500,
+    "Hp": 410000
+  },
+  {
+    "ID": 206,
+    "Description": "aaaa",
+    "Forge_Level": 206,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 20600,
+    "Defensive": 20600,
+    "Hp": 412000
+  },
+  {
+    "ID": 207,
+    "Description": "aaaa",
+    "Forge_Level": 207,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 20700,
+    "Defensive": 20700,
+    "Hp": 414000
+  },
+  {
+    "ID": 208,
+    "Description": "aaaa",
+    "Forge_Level": 208,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 20800,
+    "Defensive": 20800,
+    "Hp": 416000
+  },
+  {
+    "ID": 209,
+    "Description": "aaaa",
+    "Forge_Level": 209,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 20900,
+    "Defensive": 20900,
+    "Hp": 418000
+  },
+  {
+    "ID": 210,
+    "Description": "aaaa",
+    "Forge_Level": 210,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 21000,
+    "Defensive": 21000,
+    "Hp": 420000
+  },
+  {
+    "ID": 211,
+    "Description": "aaaa",
+    "Forge_Level": 211,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 21100,
+    "Defensive": 21100,
+    "Hp": 422000
+  },
+  {
+    "ID": 212,
+    "Description": "aaaa",
+    "Forge_Level": 212,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 21200,
+    "Defensive": 21200,
+    "Hp": 424000
+  },
+  {
+    "ID": 213,
+    "Description": "aaaa",
+    "Forge_Level": 213,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 21300,
+    "Defensive": 21300,
+    "Hp": 426000
+  },
+  {
+    "ID": 214,
+    "Description": "aaaa",
+    "Forge_Level": 214,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 21400,
+    "Defensive": 21400,
+    "Hp": 428000
+  },
+  {
+    "ID": 215,
+    "Description": "aaaa",
+    "Forge_Level": 215,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 21500,
+    "Defensive": 21500,
+    "Hp": 430000
+  },
+  {
+    "ID": 216,
+    "Description": "aaaa",
+    "Forge_Level": 216,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 21600,
+    "Defensive": 21600,
+    "Hp": 432000
+  },
+  {
+    "ID": 217,
+    "Description": "aaaa",
+    "Forge_Level": 217,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 21700,
+    "Defensive": 21700,
+    "Hp": 434000
+  },
+  {
+    "ID": 218,
+    "Description": "aaaa",
+    "Forge_Level": 218,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 21800,
+    "Defensive": 21800,
+    "Hp": 436000
+  },
+  {
+    "ID": 219,
+    "Description": "aaaa",
+    "Forge_Level": 219,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 21900,
+    "Defensive": 21900,
+    "Hp": 438000
+  },
+  {
+    "ID": 220,
+    "Description": "aaaa",
+    "Forge_Level": 220,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 22000,
+    "Defensive": 22000,
+    "Hp": 440000
+  },
+  {
+    "ID": 221,
+    "Description": "aaaa",
+    "Forge_Level": 221,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 22100,
+    "Defensive": 22100,
+    "Hp": 442000
+  },
+  {
+    "ID": 222,
+    "Description": "aaaa",
+    "Forge_Level": 222,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 22200,
+    "Defensive": 22200,
+    "Hp": 444000
+  },
+  {
+    "ID": 223,
+    "Description": "aaaa",
+    "Forge_Level": 223,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 22300,
+    "Defensive": 22300,
+    "Hp": 446000
+  },
+  {
+    "ID": 224,
+    "Description": "aaaa",
+    "Forge_Level": 224,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 22400,
+    "Defensive": 22400,
+    "Hp": 448000
+  },
+  {
+    "ID": 225,
+    "Description": "aaaa",
+    "Forge_Level": 225,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 22500,
+    "Defensive": 22500,
+    "Hp": 450000
+  },
+  {
+    "ID": 226,
+    "Description": "aaaa",
+    "Forge_Level": 226,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 22600,
+    "Defensive": 22600,
+    "Hp": 452000
+  },
+  {
+    "ID": 227,
+    "Description": "aaaa",
+    "Forge_Level": 227,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 22700,
+    "Defensive": 22700,
+    "Hp": 454000
+  },
+  {
+    "ID": 228,
+    "Description": "aaaa",
+    "Forge_Level": 228,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 22800,
+    "Defensive": 22800,
+    "Hp": 456000
+  },
+  {
+    "ID": 229,
+    "Description": "aaaa",
+    "Forge_Level": 229,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 22900,
+    "Defensive": 22900,
+    "Hp": 458000
+  },
+  {
+    "ID": 230,
+    "Description": "aaaa",
+    "Forge_Level": 230,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 23000,
+    "Defensive": 23000,
+    "Hp": 460000
+  },
+  {
+    "ID": 231,
+    "Description": "aaaa",
+    "Forge_Level": 231,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 23100,
+    "Defensive": 23100,
+    "Hp": 462000
+  },
+  {
+    "ID": 232,
+    "Description": "aaaa",
+    "Forge_Level": 232,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 23200,
+    "Defensive": 23200,
+    "Hp": 464000
+  },
+  {
+    "ID": 233,
+    "Description": "aaaa",
+    "Forge_Level": 233,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 23300,
+    "Defensive": 23300,
+    "Hp": 466000
+  },
+  {
+    "ID": 234,
+    "Description": "aaaa",
+    "Forge_Level": 234,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 23400,
+    "Defensive": 23400,
+    "Hp": 468000
+  },
+  {
+    "ID": 235,
+    "Description": "aaaa",
+    "Forge_Level": 235,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 23500,
+    "Defensive": 23500,
+    "Hp": 470000
+  },
+  {
+    "ID": 236,
+    "Description": "aaaa",
+    "Forge_Level": 236,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 23600,
+    "Defensive": 23600,
+    "Hp": 472000
+  },
+  {
+    "ID": 237,
+    "Description": "aaaa",
+    "Forge_Level": 237,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 23700,
+    "Defensive": 23700,
+    "Hp": 474000
+  },
+  {
+    "ID": 238,
+    "Description": "aaaa",
+    "Forge_Level": 238,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 23800,
+    "Defensive": 23800,
+    "Hp": 476000
+  },
+  {
+    "ID": 239,
+    "Description": "aaaa",
+    "Forge_Level": 239,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 23900,
+    "Defensive": 23900,
+    "Hp": 478000
+  },
+  {
+    "ID": 240,
+    "Description": "aaaa",
+    "Forge_Level": 240,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 24000,
+    "Defensive": 24000,
+    "Hp": 480000
+  },
+  {
+    "ID": 241,
+    "Description": "aaaa",
+    "Forge_Level": 241,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 24100,
+    "Defensive": 24100,
+    "Hp": 482000
+  },
+  {
+    "ID": 242,
+    "Description": "aaaa",
+    "Forge_Level": 242,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 24200,
+    "Defensive": 24200,
+    "Hp": 484000
+  },
+  {
+    "ID": 243,
+    "Description": "aaaa",
+    "Forge_Level": 243,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 24300,
+    "Defensive": 24300,
+    "Hp": 486000
+  },
+  {
+    "ID": 244,
+    "Description": "aaaa",
+    "Forge_Level": 244,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 24400,
+    "Defensive": 24400,
+    "Hp": 488000
+  },
+  {
+    "ID": 245,
+    "Description": "aaaa",
+    "Forge_Level": 245,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 24500,
+    "Defensive": 24500,
+    "Hp": 490000
+  },
+  {
+    "ID": 246,
+    "Description": "aaaa",
+    "Forge_Level": 246,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 24600,
+    "Defensive": 24600,
+    "Hp": 492000
+  },
+  {
+    "ID": 247,
+    "Description": "aaaa",
+    "Forge_Level": 247,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 24700,
+    "Defensive": 24700,
+    "Hp": 494000
+  },
+  {
+    "ID": 248,
+    "Description": "aaaa",
+    "Forge_Level": 248,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 24800,
+    "Defensive": 24800,
+    "Hp": 496000
+  },
+  {
+    "ID": 249,
+    "Description": "aaaa",
+    "Forge_Level": 249,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 24900,
+    "Defensive": 24900,
+    "Hp": 498000
+  },
+  {
+    "ID": 250,
+    "Description": "aaaa",
+    "Forge_Level": 250,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 25000,
+    "Defensive": 25000,
+    "Hp": 500000
+  },
+  {
+    "ID": 251,
+    "Description": "aaaa",
+    "Forge_Level": 251,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 25100,
+    "Defensive": 25100,
+    "Hp": 502000
+  },
+  {
+    "ID": 252,
+    "Description": "aaaa",
+    "Forge_Level": 252,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 25200,
+    "Defensive": 25200,
+    "Hp": 504000
+  },
+  {
+    "ID": 253,
+    "Description": "aaaa",
+    "Forge_Level": 253,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 25300,
+    "Defensive": 25300,
+    "Hp": 506000
+  },
+  {
+    "ID": 254,
+    "Description": "aaaa",
+    "Forge_Level": 254,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 25400,
+    "Defensive": 25400,
+    "Hp": 508000
+  },
+  {
+    "ID": 255,
+    "Description": "aaaa",
+    "Forge_Level": 255,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 25500,
+    "Defensive": 25500,
+    "Hp": 510000
+  },
+  {
+    "ID": 256,
+    "Description": "aaaa",
+    "Forge_Level": 256,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 25600,
+    "Defensive": 25600,
+    "Hp": 512000
+  },
+  {
+    "ID": 257,
+    "Description": "aaaa",
+    "Forge_Level": 257,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 25700,
+    "Defensive": 25700,
+    "Hp": 514000
+  },
+  {
+    "ID": 258,
+    "Description": "aaaa",
+    "Forge_Level": 258,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 25800,
+    "Defensive": 25800,
+    "Hp": 516000
+  },
+  {
+    "ID": 259,
+    "Description": "aaaa",
+    "Forge_Level": 259,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 25900,
+    "Defensive": 25900,
+    "Hp": 518000
+  },
+  {
+    "ID": 260,
+    "Description": "aaaa",
+    "Forge_Level": 260,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 26000,
+    "Defensive": 26000,
+    "Hp": 520000
+  },
+  {
+    "ID": 261,
+    "Description": "aaaa",
+    "Forge_Level": 261,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 26100,
+    "Defensive": 26100,
+    "Hp": 522000
+  },
+  {
+    "ID": 262,
+    "Description": "aaaa",
+    "Forge_Level": 262,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 26200,
+    "Defensive": 26200,
+    "Hp": 524000
+  },
+  {
+    "ID": 263,
+    "Description": "aaaa",
+    "Forge_Level": 263,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 26300,
+    "Defensive": 26300,
+    "Hp": 526000
+  },
+  {
+    "ID": 264,
+    "Description": "aaaa",
+    "Forge_Level": 264,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 26400,
+    "Defensive": 26400,
+    "Hp": 528000
+  },
+  {
+    "ID": 265,
+    "Description": "aaaa",
+    "Forge_Level": 265,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 26500,
+    "Defensive": 26500,
+    "Hp": 530000
+  },
+  {
+    "ID": 266,
+    "Description": "aaaa",
+    "Forge_Level": 266,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 26600,
+    "Defensive": 26600,
+    "Hp": 532000
+  },
+  {
+    "ID": 267,
+    "Description": "aaaa",
+    "Forge_Level": 267,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 26700,
+    "Defensive": 26700,
+    "Hp": 534000
+  },
+  {
+    "ID": 268,
+    "Description": "aaaa",
+    "Forge_Level": 268,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 26800,
+    "Defensive": 26800,
+    "Hp": 536000
+  },
+  {
+    "ID": 269,
+    "Description": "aaaa",
+    "Forge_Level": 269,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 26900,
+    "Defensive": 26900,
+    "Hp": 538000
+  },
+  {
+    "ID": 270,
+    "Description": "aaaa",
+    "Forge_Level": 270,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 27000,
+    "Defensive": 27000,
+    "Hp": 540000
+  },
+  {
+    "ID": 271,
+    "Description": "aaaa",
+    "Forge_Level": 271,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 27100,
+    "Defensive": 27100,
+    "Hp": 542000
+  },
+  {
+    "ID": 272,
+    "Description": "aaaa",
+    "Forge_Level": 272,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 27200,
+    "Defensive": 27200,
+    "Hp": 544000
+  },
+  {
+    "ID": 273,
+    "Description": "aaaa",
+    "Forge_Level": 273,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 27300,
+    "Defensive": 27300,
+    "Hp": 546000
+  },
+  {
+    "ID": 274,
+    "Description": "aaaa",
+    "Forge_Level": 274,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 27400,
+    "Defensive": 27400,
+    "Hp": 548000
+  },
+  {
+    "ID": 275,
+    "Description": "aaaa",
+    "Forge_Level": 275,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 27500,
+    "Defensive": 27500,
+    "Hp": 550000
+  },
+  {
+    "ID": 276,
+    "Description": "aaaa",
+    "Forge_Level": 276,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 27600,
+    "Defensive": 27600,
+    "Hp": 552000
+  },
+  {
+    "ID": 277,
+    "Description": "aaaa",
+    "Forge_Level": 277,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 27700,
+    "Defensive": 27700,
+    "Hp": 554000
+  },
+  {
+    "ID": 278,
+    "Description": "aaaa",
+    "Forge_Level": 278,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 27800,
+    "Defensive": 27800,
+    "Hp": 556000
+  },
+  {
+    "ID": 279,
+    "Description": "aaaa",
+    "Forge_Level": 279,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 27900,
+    "Defensive": 27900,
+    "Hp": 558000
+  },
+  {
+    "ID": 280,
+    "Description": "aaaa",
+    "Forge_Level": 280,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 28000,
+    "Defensive": 28000,
+    "Hp": 560000
+  },
+  {
+    "ID": 281,
+    "Description": "aaaa",
+    "Forge_Level": 281,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 28100,
+    "Defensive": 28100,
+    "Hp": 562000
+  },
+  {
+    "ID": 282,
+    "Description": "aaaa",
+    "Forge_Level": 282,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 28200,
+    "Defensive": 28200,
+    "Hp": 564000
+  },
+  {
+    "ID": 283,
+    "Description": "aaaa",
+    "Forge_Level": 283,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 28300,
+    "Defensive": 28300,
+    "Hp": 566000
+  },
+  {
+    "ID": 284,
+    "Description": "aaaa",
+    "Forge_Level": 284,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 28400,
+    "Defensive": 28400,
+    "Hp": 568000
+  },
+  {
+    "ID": 285,
+    "Description": "aaaa",
+    "Forge_Level": 285,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 28500,
+    "Defensive": 28500,
+    "Hp": 570000
+  },
+  {
+    "ID": 286,
+    "Description": "aaaa",
+    "Forge_Level": 286,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 28600,
+    "Defensive": 28600,
+    "Hp": 572000
+  },
+  {
+    "ID": 287,
+    "Description": "aaaa",
+    "Forge_Level": 287,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 28700,
+    "Defensive": 28700,
+    "Hp": 574000
+  },
+  {
+    "ID": 288,
+    "Description": "aaaa",
+    "Forge_Level": 288,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 28800,
+    "Defensive": 28800,
+    "Hp": 576000
+  },
+  {
+    "ID": 289,
+    "Description": "aaaa",
+    "Forge_Level": 289,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 28900,
+    "Defensive": 28900,
+    "Hp": 578000
+  },
+  {
+    "ID": 290,
+    "Description": "aaaa",
+    "Forge_Level": 290,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 29000,
+    "Defensive": 29000,
+    "Hp": 580000
+  },
+  {
+    "ID": 291,
+    "Description": "aaaa",
+    "Forge_Level": 291,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 29100,
+    "Defensive": 29100,
+    "Hp": 582000
+  },
+  {
+    "ID": 292,
+    "Description": "aaaa",
+    "Forge_Level": 292,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 29200,
+    "Defensive": 29200,
+    "Hp": 584000
+  },
+  {
+    "ID": 293,
+    "Description": "aaaa",
+    "Forge_Level": 293,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 29300,
+    "Defensive": 29300,
+    "Hp": 586000
+  },
+  {
+    "ID": 294,
+    "Description": "aaaa",
+    "Forge_Level": 294,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 29400,
+    "Defensive": 29400,
+    "Hp": 588000
+  },
+  {
+    "ID": 295,
+    "Description": "aaaa",
+    "Forge_Level": 295,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 29500,
+    "Defensive": 29500,
+    "Hp": 590000
+  },
+  {
+    "ID": 296,
+    "Description": "aaaa",
+    "Forge_Level": 296,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 29600,
+    "Defensive": 29600,
+    "Hp": 592000
+  },
+  {
+    "ID": 297,
+    "Description": "aaaa",
+    "Forge_Level": 297,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 29700,
+    "Defensive": 29700,
+    "Hp": 594000
+  },
+  {
+    "ID": 298,
+    "Description": "aaaa",
+    "Forge_Level": 298,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 29800,
+    "Defensive": 29800,
+    "Hp": 596000
+  },
+  {
+    "ID": 299,
+    "Description": "aaaa",
+    "Forge_Level": 299,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 29900,
+    "Defensive": 29900,
+    "Hp": 598000
+  },
+  {
+    "ID": 300,
+    "Description": "aaaa",
+    "Forge_Level": 300,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 30000,
+    "Defensive": 30000,
+    "Hp": 600000
+  },
+  {
+    "ID": 301,
+    "Description": "aaaa",
+    "Forge_Level": 301,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 30100,
+    "Defensive": 30100,
+    "Hp": 602000
+  },
+  {
+    "ID": 302,
+    "Description": "aaaa",
+    "Forge_Level": 302,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 30200,
+    "Defensive": 30200,
+    "Hp": 604000
+  },
+  {
+    "ID": 303,
+    "Description": "aaaa",
+    "Forge_Level": 303,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 30300,
+    "Defensive": 30300,
+    "Hp": 606000
+  },
+  {
+    "ID": 304,
+    "Description": "aaaa",
+    "Forge_Level": 304,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 30400,
+    "Defensive": 30400,
+    "Hp": 608000
+  },
+  {
+    "ID": 305,
+    "Description": "aaaa",
+    "Forge_Level": 305,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 30500,
+    "Defensive": 30500,
+    "Hp": 610000
+  },
+  {
+    "ID": 306,
+    "Description": "aaaa",
+    "Forge_Level": 306,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 30600,
+    "Defensive": 30600,
+    "Hp": 612000
+  },
+  {
+    "ID": 307,
+    "Description": "aaaa",
+    "Forge_Level": 307,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 30700,
+    "Defensive": 30700,
+    "Hp": 614000
+  },
+  {
+    "ID": 308,
+    "Description": "aaaa",
+    "Forge_Level": 308,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 30800,
+    "Defensive": 30800,
+    "Hp": 616000
+  },
+  {
+    "ID": 309,
+    "Description": "aaaa",
+    "Forge_Level": 309,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 30900,
+    "Defensive": 30900,
+    "Hp": 618000
+  },
+  {
+    "ID": 310,
+    "Description": "aaaa",
+    "Forge_Level": 310,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 31000,
+    "Defensive": 31000,
+    "Hp": 620000
+  },
+  {
+    "ID": 311,
+    "Description": "aaaa",
+    "Forge_Level": 311,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 31100,
+    "Defensive": 31100,
+    "Hp": 622000
+  },
+  {
+    "ID": 312,
+    "Description": "aaaa",
+    "Forge_Level": 312,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 31200,
+    "Defensive": 31200,
+    "Hp": 624000
+  },
+  {
+    "ID": 313,
+    "Description": "aaaa",
+    "Forge_Level": 313,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 31300,
+    "Defensive": 31300,
+    "Hp": 626000
+  },
+  {
+    "ID": 314,
+    "Description": "aaaa",
+    "Forge_Level": 314,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 31400,
+    "Defensive": 31400,
+    "Hp": 628000
+  },
+  {
+    "ID": 315,
+    "Description": "aaaa",
+    "Forge_Level": 315,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 31500,
+    "Defensive": 31500,
+    "Hp": 630000
+  },
+  {
+    "ID": 316,
+    "Description": "aaaa",
+    "Forge_Level": 316,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 31600,
+    "Defensive": 31600,
+    "Hp": 632000
+  },
+  {
+    "ID": 317,
+    "Description": "aaaa",
+    "Forge_Level": 317,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 31700,
+    "Defensive": 31700,
+    "Hp": 634000
+  },
+  {
+    "ID": 318,
+    "Description": "aaaa",
+    "Forge_Level": 318,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 31800,
+    "Defensive": 31800,
+    "Hp": 636000
+  },
+  {
+    "ID": 319,
+    "Description": "aaaa",
+    "Forge_Level": 319,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 31900,
+    "Defensive": 31900,
+    "Hp": 638000
+  },
+  {
+    "ID": 320,
+    "Description": "aaaa",
+    "Forge_Level": 320,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 32000,
+    "Defensive": 32000,
+    "Hp": 640000
+  },
+  {
+    "ID": 321,
+    "Description": "aaaa",
+    "Forge_Level": 321,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 32100,
+    "Defensive": 32100,
+    "Hp": 642000
+  },
+  {
+    "ID": 322,
+    "Description": "aaaa",
+    "Forge_Level": 322,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 32200,
+    "Defensive": 32200,
+    "Hp": 644000
+  },
+  {
+    "ID": 323,
+    "Description": "aaaa",
+    "Forge_Level": 323,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 32300,
+    "Defensive": 32300,
+    "Hp": 646000
+  },
+  {
+    "ID": 324,
+    "Description": "aaaa",
+    "Forge_Level": 324,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 32400,
+    "Defensive": 32400,
+    "Hp": 648000
+  },
+  {
+    "ID": 325,
+    "Description": "aaaa",
+    "Forge_Level": 325,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 32500,
+    "Defensive": 32500,
+    "Hp": 650000
+  },
+  {
+    "ID": 326,
+    "Description": "aaaa",
+    "Forge_Level": 326,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 32600,
+    "Defensive": 32600,
+    "Hp": 652000
+  },
+  {
+    "ID": 327,
+    "Description": "aaaa",
+    "Forge_Level": 327,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 32700,
+    "Defensive": 32700,
+    "Hp": 654000
+  },
+  {
+    "ID": 328,
+    "Description": "aaaa",
+    "Forge_Level": 328,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 32800,
+    "Defensive": 32800,
+    "Hp": 656000
+  },
+  {
+    "ID": 329,
+    "Description": "aaaa",
+    "Forge_Level": 329,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 32900,
+    "Defensive": 32900,
+    "Hp": 658000
+  },
+  {
+    "ID": 330,
+    "Description": "aaaa",
+    "Forge_Level": 330,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 33000,
+    "Defensive": 33000,
+    "Hp": 660000
+  },
+  {
+    "ID": 331,
+    "Description": "aaaa",
+    "Forge_Level": 331,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 33100,
+    "Defensive": 33100,
+    "Hp": 662000
+  },
+  {
+    "ID": 332,
+    "Description": "aaaa",
+    "Forge_Level": 332,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 33200,
+    "Defensive": 33200,
+    "Hp": 664000
+  },
+  {
+    "ID": 333,
+    "Description": "aaaa",
+    "Forge_Level": 333,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 33300,
+    "Defensive": 33300,
+    "Hp": 666000
+  },
+  {
+    "ID": 334,
+    "Description": "aaaa",
+    "Forge_Level": 334,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 33400,
+    "Defensive": 33400,
+    "Hp": 668000
+  },
+  {
+    "ID": 335,
+    "Description": "aaaa",
+    "Forge_Level": 335,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 33500,
+    "Defensive": 33500,
+    "Hp": 670000
+  },
+  {
+    "ID": 336,
+    "Description": "aaaa",
+    "Forge_Level": 336,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 33600,
+    "Defensive": 33600,
+    "Hp": 672000
+  },
+  {
+    "ID": 337,
+    "Description": "aaaa",
+    "Forge_Level": 337,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 33700,
+    "Defensive": 33700,
+    "Hp": 674000
+  },
+  {
+    "ID": 338,
+    "Description": "aaaa",
+    "Forge_Level": 338,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 33800,
+    "Defensive": 33800,
+    "Hp": 676000
+  },
+  {
+    "ID": 339,
+    "Description": "aaaa",
+    "Forge_Level": 339,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 33900,
+    "Defensive": 33900,
+    "Hp": 678000
+  },
+  {
+    "ID": 340,
+    "Description": "aaaa",
+    "Forge_Level": 340,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 34000,
+    "Defensive": 34000,
+    "Hp": 680000
+  },
+  {
+    "ID": 341,
+    "Description": "aaaa",
+    "Forge_Level": 341,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 34100,
+    "Defensive": 34100,
+    "Hp": 682000
+  },
+  {
+    "ID": 342,
+    "Description": "aaaa",
+    "Forge_Level": 342,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 34200,
+    "Defensive": 34200,
+    "Hp": 684000
+  },
+  {
+    "ID": 343,
+    "Description": "aaaa",
+    "Forge_Level": 343,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 34300,
+    "Defensive": 34300,
+    "Hp": 686000
+  },
+  {
+    "ID": 344,
+    "Description": "aaaa",
+    "Forge_Level": 344,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 34400,
+    "Defensive": 34400,
+    "Hp": 688000
+  },
+  {
+    "ID": 345,
+    "Description": "aaaa",
+    "Forge_Level": 345,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 34500,
+    "Defensive": 34500,
+    "Hp": 690000
+  },
+  {
+    "ID": 346,
+    "Description": "aaaa",
+    "Forge_Level": 346,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 34600,
+    "Defensive": 34600,
+    "Hp": 692000
+  },
+  {
+    "ID": 347,
+    "Description": "aaaa",
+    "Forge_Level": 347,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 34700,
+    "Defensive": 34700,
+    "Hp": 694000
+  },
+  {
+    "ID": 348,
+    "Description": "aaaa",
+    "Forge_Level": 348,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 34800,
+    "Defensive": 34800,
+    "Hp": 696000
+  },
+  {
+    "ID": 349,
+    "Description": "aaaa",
+    "Forge_Level": 349,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 34900,
+    "Defensive": 34900,
+    "Hp": 698000
+  },
+  {
+    "ID": 350,
+    "Description": "aaaa",
+    "Forge_Level": 350,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 35000,
+    "Defensive": 35000,
+    "Hp": 700000
+  },
+  {
+    "ID": 351,
+    "Description": "aaaa",
+    "Forge_Level": 351,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 35100,
+    "Defensive": 35100,
+    "Hp": 702000
+  },
+  {
+    "ID": 352,
+    "Description": "aaaa",
+    "Forge_Level": 352,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 35200,
+    "Defensive": 35200,
+    "Hp": 704000
+  },
+  {
+    "ID": 353,
+    "Description": "aaaa",
+    "Forge_Level": 353,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 35300,
+    "Defensive": 35300,
+    "Hp": 706000
+  },
+  {
+    "ID": 354,
+    "Description": "aaaa",
+    "Forge_Level": 354,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 35400,
+    "Defensive": 35400,
+    "Hp": 708000
+  },
+  {
+    "ID": 355,
+    "Description": "aaaa",
+    "Forge_Level": 355,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 35500,
+    "Defensive": 35500,
+    "Hp": 710000
+  },
+  {
+    "ID": 356,
+    "Description": "aaaa",
+    "Forge_Level": 356,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 35600,
+    "Defensive": 35600,
+    "Hp": 712000
+  },
+  {
+    "ID": 357,
+    "Description": "aaaa",
+    "Forge_Level": 357,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 35700,
+    "Defensive": 35700,
+    "Hp": 714000
+  },
+  {
+    "ID": 358,
+    "Description": "aaaa",
+    "Forge_Level": 358,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 35800,
+    "Defensive": 35800,
+    "Hp": 716000
+  },
+  {
+    "ID": 359,
+    "Description": "aaaa",
+    "Forge_Level": 359,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 35900,
+    "Defensive": 35900,
+    "Hp": 718000
+  },
+  {
+    "ID": 360,
+    "Description": "aaaa",
+    "Forge_Level": 360,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 36000,
+    "Defensive": 36000,
+    "Hp": 720000
+  },
+  {
+    "ID": 361,
+    "Description": "aaaa",
+    "Forge_Level": 361,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 36100,
+    "Defensive": 36100,
+    "Hp": 722000
+  },
+  {
+    "ID": 362,
+    "Description": "aaaa",
+    "Forge_Level": 362,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 36200,
+    "Defensive": 36200,
+    "Hp": 724000
+  },
+  {
+    "ID": 363,
+    "Description": "aaaa",
+    "Forge_Level": 363,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 36300,
+    "Defensive": 36300,
+    "Hp": 726000
+  },
+  {
+    "ID": 364,
+    "Description": "aaaa",
+    "Forge_Level": 364,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 36400,
+    "Defensive": 36400,
+    "Hp": 728000
+  },
+  {
+    "ID": 365,
+    "Description": "aaaa",
+    "Forge_Level": 365,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 36500,
+    "Defensive": 36500,
+    "Hp": 730000
+  },
+  {
+    "ID": 366,
+    "Description": "aaaa",
+    "Forge_Level": 366,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 36600,
+    "Defensive": 36600,
+    "Hp": 732000
+  },
+  {
+    "ID": 367,
+    "Description": "aaaa",
+    "Forge_Level": 367,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 36700,
+    "Defensive": 36700,
+    "Hp": 734000
+  },
+  {
+    "ID": 368,
+    "Description": "aaaa",
+    "Forge_Level": 368,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 36800,
+    "Defensive": 36800,
+    "Hp": 736000
+  },
+  {
+    "ID": 369,
+    "Description": "aaaa",
+    "Forge_Level": 369,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 36900,
+    "Defensive": 36900,
+    "Hp": 738000
+  },
+  {
+    "ID": 370,
+    "Description": "aaaa",
+    "Forge_Level": 370,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 37000,
+    "Defensive": 37000,
+    "Hp": 740000
+  },
+  {
+    "ID": 371,
+    "Description": "aaaa",
+    "Forge_Level": 371,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 37100,
+    "Defensive": 37100,
+    "Hp": 742000
+  },
+  {
+    "ID": 372,
+    "Description": "aaaa",
+    "Forge_Level": 372,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 37200,
+    "Defensive": 37200,
+    "Hp": 744000
+  },
+  {
+    "ID": 373,
+    "Description": "aaaa",
+    "Forge_Level": 373,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 37300,
+    "Defensive": 37300,
+    "Hp": 746000
+  },
+  {
+    "ID": 374,
+    "Description": "aaaa",
+    "Forge_Level": 374,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 37400,
+    "Defensive": 37400,
+    "Hp": 748000
+  },
+  {
+    "ID": 375,
+    "Description": "aaaa",
+    "Forge_Level": 375,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 37500,
+    "Defensive": 37500,
+    "Hp": 750000
+  },
+  {
+    "ID": 376,
+    "Description": "aaaa",
+    "Forge_Level": 376,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 37600,
+    "Defensive": 37600,
+    "Hp": 752000
+  },
+  {
+    "ID": 377,
+    "Description": "aaaa",
+    "Forge_Level": 377,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 37700,
+    "Defensive": 37700,
+    "Hp": 754000
+  },
+  {
+    "ID": 378,
+    "Description": "aaaa",
+    "Forge_Level": 378,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 37800,
+    "Defensive": 37800,
+    "Hp": 756000
+  },
+  {
+    "ID": 379,
+    "Description": "aaaa",
+    "Forge_Level": 379,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 37900,
+    "Defensive": 37900,
+    "Hp": 758000
+  },
+  {
+    "ID": 380,
+    "Description": "aaaa",
+    "Forge_Level": 380,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 38000,
+    "Defensive": 38000,
+    "Hp": 760000
+  },
+  {
+    "ID": 381,
+    "Description": "aaaa",
+    "Forge_Level": 381,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 38100,
+    "Defensive": 38100,
+    "Hp": 762000
+  },
+  {
+    "ID": 382,
+    "Description": "aaaa",
+    "Forge_Level": 382,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 38200,
+    "Defensive": 38200,
+    "Hp": 764000
+  },
+  {
+    "ID": 383,
+    "Description": "aaaa",
+    "Forge_Level": 383,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 38300,
+    "Defensive": 38300,
+    "Hp": 766000
+  },
+  {
+    "ID": 384,
+    "Description": "aaaa",
+    "Forge_Level": 384,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 38400,
+    "Defensive": 38400,
+    "Hp": 768000
+  },
+  {
+    "ID": 385,
+    "Description": "aaaa",
+    "Forge_Level": 385,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 38500,
+    "Defensive": 38500,
+    "Hp": 770000
+  },
+  {
+    "ID": 386,
+    "Description": "aaaa",
+    "Forge_Level": 386,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 38600,
+    "Defensive": 38600,
+    "Hp": 772000
+  },
+  {
+    "ID": 387,
+    "Description": "aaaa",
+    "Forge_Level": 387,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 38700,
+    "Defensive": 38700,
+    "Hp": 774000
+  },
+  {
+    "ID": 388,
+    "Description": "aaaa",
+    "Forge_Level": 388,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 38800,
+    "Defensive": 38800,
+    "Hp": 776000
+  },
+  {
+    "ID": 389,
+    "Description": "aaaa",
+    "Forge_Level": 389,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 38900,
+    "Defensive": 38900,
+    "Hp": 778000
+  },
+  {
+    "ID": 390,
+    "Description": "aaaa",
+    "Forge_Level": 390,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 39000,
+    "Defensive": 39000,
+    "Hp": 780000
+  },
+  {
+    "ID": 391,
+    "Description": "aaaa",
+    "Forge_Level": 391,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 39100,
+    "Defensive": 39100,
+    "Hp": 782000
+  },
+  {
+    "ID": 392,
+    "Description": "aaaa",
+    "Forge_Level": 392,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 39200,
+    "Defensive": 39200,
+    "Hp": 784000
+  },
+  {
+    "ID": 393,
+    "Description": "aaaa",
+    "Forge_Level": 393,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 39300,
+    "Defensive": 39300,
+    "Hp": 786000
+  },
+  {
+    "ID": 394,
+    "Description": "aaaa",
+    "Forge_Level": 394,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 39400,
+    "Defensive": 39400,
+    "Hp": 788000
+  },
+  {
+    "ID": 395,
+    "Description": "aaaa",
+    "Forge_Level": 395,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 39500,
+    "Defensive": 39500,
+    "Hp": 790000
+  },
+  {
+    "ID": 396,
+    "Description": "aaaa",
+    "Forge_Level": 396,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 39600,
+    "Defensive": 39600,
+    "Hp": 792000
+  },
+  {
+    "ID": 397,
+    "Description": "aaaa",
+    "Forge_Level": 397,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 39700,
+    "Defensive": 39700,
+    "Hp": 794000
+  },
+  {
+    "ID": 398,
+    "Description": "aaaa",
+    "Forge_Level": 398,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 39800,
+    "Defensive": 39800,
+    "Hp": 796000
+  },
+  {
+    "ID": 399,
+    "Description": "aaaa",
+    "Forge_Level": 399,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 39900,
+    "Defensive": 39900,
+    "Hp": 798000
+  },
+  {
+    "ID": 400,
+    "Description": "aaaa",
+    "Forge_Level": 400,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 40000,
+    "Defensive": 40000,
+    "Hp": 800000
+  },
+  {
+    "ID": 401,
+    "Description": "aaaa",
+    "Forge_Level": 401,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 40100,
+    "Defensive": 40100,
+    "Hp": 802000
+  },
+  {
+    "ID": 402,
+    "Description": "aaaa",
+    "Forge_Level": 402,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 40200,
+    "Defensive": 40200,
+    "Hp": 804000
+  },
+  {
+    "ID": 403,
+    "Description": "aaaa",
+    "Forge_Level": 403,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 40300,
+    "Defensive": 40300,
+    "Hp": 806000
+  },
+  {
+    "ID": 404,
+    "Description": "aaaa",
+    "Forge_Level": 404,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 40400,
+    "Defensive": 40400,
+    "Hp": 808000
+  },
+  {
+    "ID": 405,
+    "Description": "aaaa",
+    "Forge_Level": 405,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 40500,
+    "Defensive": 40500,
+    "Hp": 810000
+  },
+  {
+    "ID": 406,
+    "Description": "aaaa",
+    "Forge_Level": 406,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 40600,
+    "Defensive": 40600,
+    "Hp": 812000
+  },
+  {
+    "ID": 407,
+    "Description": "aaaa",
+    "Forge_Level": 407,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 40700,
+    "Defensive": 40700,
+    "Hp": 814000
+  },
+  {
+    "ID": 408,
+    "Description": "aaaa",
+    "Forge_Level": 408,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 40800,
+    "Defensive": 40800,
+    "Hp": 816000
+  },
+  {
+    "ID": 409,
+    "Description": "aaaa",
+    "Forge_Level": 409,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 40900,
+    "Defensive": 40900,
+    "Hp": 818000
+  },
+  {
+    "ID": 410,
+    "Description": "aaaa",
+    "Forge_Level": 410,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 41000,
+    "Defensive": 41000,
+    "Hp": 820000
+  },
+  {
+    "ID": 411,
+    "Description": "aaaa",
+    "Forge_Level": 411,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 41100,
+    "Defensive": 41100,
+    "Hp": 822000
+  },
+  {
+    "ID": 412,
+    "Description": "aaaa",
+    "Forge_Level": 412,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 41200,
+    "Defensive": 41200,
+    "Hp": 824000
+  },
+  {
+    "ID": 413,
+    "Description": "aaaa",
+    "Forge_Level": 413,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 41300,
+    "Defensive": 41300,
+    "Hp": 826000
+  },
+  {
+    "ID": 414,
+    "Description": "aaaa",
+    "Forge_Level": 414,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 41400,
+    "Defensive": 41400,
+    "Hp": 828000
+  },
+  {
+    "ID": 415,
+    "Description": "aaaa",
+    "Forge_Level": 415,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 41500,
+    "Defensive": 41500,
+    "Hp": 830000
+  },
+  {
+    "ID": 416,
+    "Description": "aaaa",
+    "Forge_Level": 416,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 41600,
+    "Defensive": 41600,
+    "Hp": 832000
+  },
+  {
+    "ID": 417,
+    "Description": "aaaa",
+    "Forge_Level": 417,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 41700,
+    "Defensive": 41700,
+    "Hp": 834000
+  },
+  {
+    "ID": 418,
+    "Description": "aaaa",
+    "Forge_Level": 418,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 41800,
+    "Defensive": 41800,
+    "Hp": 836000
+  },
+  {
+    "ID": 419,
+    "Description": "aaaa",
+    "Forge_Level": 419,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 41900,
+    "Defensive": 41900,
+    "Hp": 838000
+  },
+  {
+    "ID": 420,
+    "Description": "aaaa",
+    "Forge_Level": 420,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 42000,
+    "Defensive": 42000,
+    "Hp": 840000
+  },
+  {
+    "ID": 421,
+    "Description": "aaaa",
+    "Forge_Level": 421,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 42100,
+    "Defensive": 42100,
+    "Hp": 842000
+  },
+  {
+    "ID": 422,
+    "Description": "aaaa",
+    "Forge_Level": 422,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 42200,
+    "Defensive": 42200,
+    "Hp": 844000
+  },
+  {
+    "ID": 423,
+    "Description": "aaaa",
+    "Forge_Level": 423,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 42300,
+    "Defensive": 42300,
+    "Hp": 846000
+  },
+  {
+    "ID": 424,
+    "Description": "aaaa",
+    "Forge_Level": 424,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 42400,
+    "Defensive": 42400,
+    "Hp": 848000
+  },
+  {
+    "ID": 425,
+    "Description": "aaaa",
+    "Forge_Level": 425,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 42500,
+    "Defensive": 42500,
+    "Hp": 850000
+  },
+  {
+    "ID": 426,
+    "Description": "aaaa",
+    "Forge_Level": 426,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 42600,
+    "Defensive": 42600,
+    "Hp": 852000
+  },
+  {
+    "ID": 427,
+    "Description": "aaaa",
+    "Forge_Level": 427,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 42700,
+    "Defensive": 42700,
+    "Hp": 854000
+  },
+  {
+    "ID": 428,
+    "Description": "aaaa",
+    "Forge_Level": 428,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 42800,
+    "Defensive": 42800,
+    "Hp": 856000
+  },
+  {
+    "ID": 429,
+    "Description": "aaaa",
+    "Forge_Level": 429,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 42900,
+    "Defensive": 42900,
+    "Hp": 858000
+  },
+  {
+    "ID": 430,
+    "Description": "aaaa",
+    "Forge_Level": 430,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 43000,
+    "Defensive": 43000,
+    "Hp": 860000
+  },
+  {
+    "ID": 431,
+    "Description": "aaaa",
+    "Forge_Level": 431,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 43100,
+    "Defensive": 43100,
+    "Hp": 862000
+  },
+  {
+    "ID": 432,
+    "Description": "aaaa",
+    "Forge_Level": 432,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 43200,
+    "Defensive": 43200,
+    "Hp": 864000
+  },
+  {
+    "ID": 433,
+    "Description": "aaaa",
+    "Forge_Level": 433,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 43300,
+    "Defensive": 43300,
+    "Hp": 866000
+  },
+  {
+    "ID": 434,
+    "Description": "aaaa",
+    "Forge_Level": 434,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 43400,
+    "Defensive": 43400,
+    "Hp": 868000
+  },
+  {
+    "ID": 435,
+    "Description": "aaaa",
+    "Forge_Level": 435,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 43500,
+    "Defensive": 43500,
+    "Hp": 870000
+  },
+  {
+    "ID": 436,
+    "Description": "aaaa",
+    "Forge_Level": 436,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 43600,
+    "Defensive": 43600,
+    "Hp": 872000
+  },
+  {
+    "ID": 437,
+    "Description": "aaaa",
+    "Forge_Level": 437,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 43700,
+    "Defensive": 43700,
+    "Hp": 874000
+  },
+  {
+    "ID": 438,
+    "Description": "aaaa",
+    "Forge_Level": 438,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 43800,
+    "Defensive": 43800,
+    "Hp": 876000
+  },
+  {
+    "ID": 439,
+    "Description": "aaaa",
+    "Forge_Level": 439,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 43900,
+    "Defensive": 43900,
+    "Hp": 878000
+  },
+  {
+    "ID": 440,
+    "Description": "aaaa",
+    "Forge_Level": 440,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 44000,
+    "Defensive": 44000,
+    "Hp": 880000
+  },
+  {
+    "ID": 441,
+    "Description": "aaaa",
+    "Forge_Level": 441,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 44100,
+    "Defensive": 44100,
+    "Hp": 882000
+  },
+  {
+    "ID": 442,
+    "Description": "aaaa",
+    "Forge_Level": 442,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 44200,
+    "Defensive": 44200,
+    "Hp": 884000
+  },
+  {
+    "ID": 443,
+    "Description": "aaaa",
+    "Forge_Level": 443,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 44300,
+    "Defensive": 44300,
+    "Hp": 886000
+  },
+  {
+    "ID": 444,
+    "Description": "aaaa",
+    "Forge_Level": 444,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 44400,
+    "Defensive": 44400,
+    "Hp": 888000
+  },
+  {
+    "ID": 445,
+    "Description": "aaaa",
+    "Forge_Level": 445,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 44500,
+    "Defensive": 44500,
+    "Hp": 890000
+  },
+  {
+    "ID": 446,
+    "Description": "aaaa",
+    "Forge_Level": 446,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 44600,
+    "Defensive": 44600,
+    "Hp": 892000
+  },
+  {
+    "ID": 447,
+    "Description": "aaaa",
+    "Forge_Level": 447,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 44700,
+    "Defensive": 44700,
+    "Hp": 894000
+  },
+  {
+    "ID": 448,
+    "Description": "aaaa",
+    "Forge_Level": 448,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 44800,
+    "Defensive": 44800,
+    "Hp": 896000
+  },
+  {
+    "ID": 449,
+    "Description": "aaaa",
+    "Forge_Level": 449,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 44900,
+    "Defensive": 44900,
+    "Hp": 898000
+  },
+  {
+    "ID": 450,
+    "Description": "aaaa",
+    "Forge_Level": 450,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 45000,
+    "Defensive": 45000,
+    "Hp": 900000
+  },
+  {
+    "ID": 451,
+    "Description": "aaaa",
+    "Forge_Level": 451,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 45100,
+    "Defensive": 45100,
+    "Hp": 902000
+  },
+  {
+    "ID": 452,
+    "Description": "aaaa",
+    "Forge_Level": 452,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 45200,
+    "Defensive": 45200,
+    "Hp": 904000
+  },
+  {
+    "ID": 453,
+    "Description": "aaaa",
+    "Forge_Level": 453,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 45300,
+    "Defensive": 45300,
+    "Hp": 906000
+  },
+  {
+    "ID": 454,
+    "Description": "aaaa",
+    "Forge_Level": 454,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 45400,
+    "Defensive": 45400,
+    "Hp": 908000
+  },
+  {
+    "ID": 455,
+    "Description": "aaaa",
+    "Forge_Level": 455,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 45500,
+    "Defensive": 45500,
+    "Hp": 910000
+  },
+  {
+    "ID": 456,
+    "Description": "aaaa",
+    "Forge_Level": 456,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 45600,
+    "Defensive": 45600,
+    "Hp": 912000
+  },
+  {
+    "ID": 457,
+    "Description": "aaaa",
+    "Forge_Level": 457,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 45700,
+    "Defensive": 45700,
+    "Hp": 914000
+  },
+  {
+    "ID": 458,
+    "Description": "aaaa",
+    "Forge_Level": 458,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 45800,
+    "Defensive": 45800,
+    "Hp": 916000
+  },
+  {
+    "ID": 459,
+    "Description": "aaaa",
+    "Forge_Level": 459,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 45900,
+    "Defensive": 45900,
+    "Hp": 918000
+  },
+  {
+    "ID": 460,
+    "Description": "aaaa",
+    "Forge_Level": 460,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 46000,
+    "Defensive": 46000,
+    "Hp": 920000
+  },
+  {
+    "ID": 461,
+    "Description": "aaaa",
+    "Forge_Level": 461,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 46100,
+    "Defensive": 46100,
+    "Hp": 922000
+  },
+  {
+    "ID": 462,
+    "Description": "aaaa",
+    "Forge_Level": 462,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 46200,
+    "Defensive": 46200,
+    "Hp": 924000
+  },
+  {
+    "ID": 463,
+    "Description": "aaaa",
+    "Forge_Level": 463,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 46300,
+    "Defensive": 46300,
+    "Hp": 926000
+  },
+  {
+    "ID": 464,
+    "Description": "aaaa",
+    "Forge_Level": 464,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 46400,
+    "Defensive": 46400,
+    "Hp": 928000
+  },
+  {
+    "ID": 465,
+    "Description": "aaaa",
+    "Forge_Level": 465,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 46500,
+    "Defensive": 46500,
+    "Hp": 930000
+  },
+  {
+    "ID": 466,
+    "Description": "aaaa",
+    "Forge_Level": 466,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 46600,
+    "Defensive": 46600,
+    "Hp": 932000
+  },
+  {
+    "ID": 467,
+    "Description": "aaaa",
+    "Forge_Level": 467,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 46700,
+    "Defensive": 46700,
+    "Hp": 934000
+  },
+  {
+    "ID": 468,
+    "Description": "aaaa",
+    "Forge_Level": 468,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 46800,
+    "Defensive": 46800,
+    "Hp": 936000
+  },
+  {
+    "ID": 469,
+    "Description": "aaaa",
+    "Forge_Level": 469,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 46900,
+    "Defensive": 46900,
+    "Hp": 938000
+  },
+  {
+    "ID": 470,
+    "Description": "aaaa",
+    "Forge_Level": 470,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 47000,
+    "Defensive": 47000,
+    "Hp": 940000
+  },
+  {
+    "ID": 471,
+    "Description": "aaaa",
+    "Forge_Level": 471,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 47100,
+    "Defensive": 47100,
+    "Hp": 942000
+  },
+  {
+    "ID": 472,
+    "Description": "aaaa",
+    "Forge_Level": 472,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 47200,
+    "Defensive": 47200,
+    "Hp": 944000
+  },
+  {
+    "ID": 473,
+    "Description": "aaaa",
+    "Forge_Level": 473,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 47300,
+    "Defensive": 47300,
+    "Hp": 946000
+  },
+  {
+    "ID": 474,
+    "Description": "aaaa",
+    "Forge_Level": 474,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 47400,
+    "Defensive": 47400,
+    "Hp": 948000
+  },
+  {
+    "ID": 475,
+    "Description": "aaaa",
+    "Forge_Level": 475,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 47500,
+    "Defensive": 47500,
+    "Hp": 950000
+  },
+  {
+    "ID": 476,
+    "Description": "aaaa",
+    "Forge_Level": 476,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 47600,
+    "Defensive": 47600,
+    "Hp": 952000
+  },
+  {
+    "ID": 477,
+    "Description": "aaaa",
+    "Forge_Level": 477,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 47700,
+    "Defensive": 47700,
+    "Hp": 954000
+  },
+  {
+    "ID": 478,
+    "Description": "aaaa",
+    "Forge_Level": 478,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 47800,
+    "Defensive": 47800,
+    "Hp": 956000
+  },
+  {
+    "ID": 479,
+    "Description": "aaaa",
+    "Forge_Level": 479,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 47900,
+    "Defensive": 47900,
+    "Hp": 958000
+  },
+  {
+    "ID": 480,
+    "Description": "aaaa",
+    "Forge_Level": 480,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 48000,
+    "Defensive": 48000,
+    "Hp": 960000
+  },
+  {
+    "ID": 481,
+    "Description": "aaaa",
+    "Forge_Level": 481,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 48100,
+    "Defensive": 48100,
+    "Hp": 962000
+  },
+  {
+    "ID": 482,
+    "Description": "aaaa",
+    "Forge_Level": 482,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 48200,
+    "Defensive": 48200,
+    "Hp": 964000
+  },
+  {
+    "ID": 483,
+    "Description": "aaaa",
+    "Forge_Level": 483,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 48300,
+    "Defensive": 48300,
+    "Hp": 966000
+  },
+  {
+    "ID": 484,
+    "Description": "aaaa",
+    "Forge_Level": 484,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 48400,
+    "Defensive": 48400,
+    "Hp": 968000
+  },
+  {
+    "ID": 485,
+    "Description": "aaaa",
+    "Forge_Level": 485,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 48500,
+    "Defensive": 48500,
+    "Hp": 970000
+  },
+  {
+    "ID": 486,
+    "Description": "aaaa",
+    "Forge_Level": 486,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 48600,
+    "Defensive": 48600,
+    "Hp": 972000
+  },
+  {
+    "ID": 487,
+    "Description": "aaaa",
+    "Forge_Level": 487,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 48700,
+    "Defensive": 48700,
+    "Hp": 974000
+  },
+  {
+    "ID": 488,
+    "Description": "aaaa",
+    "Forge_Level": 488,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 48800,
+    "Defensive": 48800,
+    "Hp": 976000
+  },
+  {
+    "ID": 489,
+    "Description": "aaaa",
+    "Forge_Level": 489,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 48900,
+    "Defensive": 48900,
+    "Hp": 978000
+  },
+  {
+    "ID": 490,
+    "Description": "aaaa",
+    "Forge_Level": 490,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 49000,
+    "Defensive": 49000,
+    "Hp": 980000
+  },
+  {
+    "ID": 491,
+    "Description": "aaaa",
+    "Forge_Level": 491,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 49100,
+    "Defensive": 49100,
+    "Hp": 982000
+  },
+  {
+    "ID": 492,
+    "Description": "aaaa",
+    "Forge_Level": 492,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 49200,
+    "Defensive": 49200,
+    "Hp": 984000
+  },
+  {
+    "ID": 493,
+    "Description": "aaaa",
+    "Forge_Level": 493,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 49300,
+    "Defensive": 49300,
+    "Hp": 986000
+  },
+  {
+    "ID": 494,
+    "Description": "aaaa",
+    "Forge_Level": 494,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 49400,
+    "Defensive": 49400,
+    "Hp": 988000
+  },
+  {
+    "ID": 495,
+    "Description": "aaaa",
+    "Forge_Level": 495,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 49500,
+    "Defensive": 49500,
+    "Hp": 990000
+  },
+  {
+    "ID": 496,
+    "Description": "aaaa",
+    "Forge_Level": 496,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 49600,
+    "Defensive": 49600,
+    "Hp": 992000
+  },
+  {
+    "ID": 497,
+    "Description": "aaaa",
+    "Forge_Level": 497,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 49700,
+    "Defensive": 49700,
+    "Hp": 994000
+  },
+  {
+    "ID": 498,
+    "Description": "aaaa",
+    "Forge_Level": 498,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 49800,
+    "Defensive": 49800,
+    "Hp": 996000
+  },
+  {
+    "ID": 499,
+    "Description": "aaaa",
+    "Forge_Level": 499,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 49900,
+    "Defensive": 49900,
+    "Hp": 998000
+  },
+  {
+    "ID": 500,
+    "Description": "aaaa",
+    "Forge_Level": 500,
+    "Upgrade_Need_Exp": 10000,
+    "Atk": 50000,
+    "Defensive": 50000,
+    "Hp": 1000000
+  }
+]
