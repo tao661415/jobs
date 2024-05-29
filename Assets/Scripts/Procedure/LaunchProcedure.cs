@@ -1,5 +1,6 @@
 using System.Threading.Tasks;
 using UnityEngine;
+using Config;
 
 
 public class LaunchProcedure : BaseProcedure
@@ -7,7 +8,7 @@ public class LaunchProcedure : BaseProcedure
     public override async Task OnEnterProcedure(object value)
     {
         Debug.Log("enter LaunchProcedure");
-        
+        ConfigManager.LoadAllConfigsByAddressable("Assets/BundleAssets/Config");
         await LoadConfigs();
         await ChangeProcedure<InitProcedure>();
     }

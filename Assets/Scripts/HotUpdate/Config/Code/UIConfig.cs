@@ -21,6 +21,7 @@ namespace Config
                 datas.Add(data);
                 indexMap.Add(data.ID, i);
             }
+            GameManager.UI.OpenUI(UIViewID.LoginUI);
         }
         public static void DeserializeByFile(string directory)
         {
@@ -79,7 +80,7 @@ namespace Config
                 indexMap.Add(data.ID, i);
             }
 
-            GameManager.UI.OpenUI(UIViewID.LoginUI);
+            
         }
         public static int Count;
         private static List<UIConfig> datas;

@@ -17,8 +17,8 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: b4972a5600de1524197d817179e9c8b3
   m_SerializeEntries:
-  - m_GUID: 2a60413163f1d9848b833dc4bd946ba5
-    m_Address: Assets/BundleAssets/Game/UIs/Views/Login/LoginView.prefab
+  - m_GUID: 4e4008175e368f741b477e80054a19cf
+    m_Address: Assets/BundleAssets/Config
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

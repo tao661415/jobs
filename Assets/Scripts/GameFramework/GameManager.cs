@@ -5,7 +5,8 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-
+    [Module(1)]
+    public static AssetModule Asset { get => TGameFramework.Instance.GetModule<AssetModule>(); }
     /// <summary>
     /// 流程组件
     /// </summary>
