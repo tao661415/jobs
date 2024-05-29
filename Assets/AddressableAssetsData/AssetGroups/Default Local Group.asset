@@ -22,6 +22,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a60413163f1d9848b833dc4bd946ba5
+    m_Address: Assets/BundleAssets/Game/UIs/Views/Login/LoginView.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: ce1fc9ecd786631458159b7deeaaef41, type: 2}
   m_SchemaSet:

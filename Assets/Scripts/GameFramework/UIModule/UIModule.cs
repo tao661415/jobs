@@ -7,22 +7,22 @@ using TGame.Asset;
 using UnityEngine;
 using UnityEngine.UI;
 
-
+// UI模块，负责管理UI的显示和关闭
 public partial class UIModule : BaseGameModule
 {
-    public Transform normalUIRoot;
-    public Transform modalUIRoot;
-    public Transform closeUIRoot;
-    public Image imgMask;
-    public QuantumConsole prefabQuantumConsole;
+    public Transform normalUIRoot; // 普通UI的根节点
+    public Transform modalUIRoot; // 模态UI的根节点
+    public Transform closeUIRoot; // 关闭UI的根节点
+    public Image imgMask; // 遮罩图片
+    public QuantumConsole prefabQuantumConsole; // Quantum Console的预制体
 
-    private static Dictionary<UIViewID, Type> MEDIATOR_MAPPING;
-    private static Dictionary<UIViewID, Type> ASSET_MAPPING;
+    private static Dictionary<UIViewID, Type> MEDIATOR_MAPPING; // UI的Mediator映射表
+    private static Dictionary<UIViewID, Type> ASSET_MAPPING; // UI的Asset映射表
 
-    private readonly List<UIMediator> usingMediators = new List<UIMediator>();
-    private readonly Dictionary<Type, Queue<UIMediator>> freeMediators = new Dictionary<Type, Queue<UIMediator>>();
-    private readonly GameObjectPool<GameObjectAsset> uiObjectPool = new GameObjectPool<GameObjectAsset>();
-    private QuantumConsole quantumConsole;
+    private readonly List<UIMediator> usingMediators = new List<UIMediator>(); // 正在使用中的Mediator列表
+    private readonly Dictionary<Type, Queue<UIMediator>> freeMediators = new Dictionary<Type, Queue<UIMediator>>(); // 空闲的Mediator队列
+    private readonly GameObjectPool<GameObjectAsset> uiObjectPool = new GameObjectPool<GameObjectAsset>(); // UI对象池
+    private QuantumConsole quantumConsole; // Quantum Console实例
 
     protected internal override void OnModuleInit()
     {
@@ -40,6 +40,7 @@ public partial class UIModule : BaseGameModule
         //quantumConsole.OnDeactivate -= OnConsoleDeactive;
     }
 
+    // 缓存UI的Mediator和Asset映射表
     private static void CacheUIMapping()
     {
         if (MEDIATOR_MAPPING != null)
@@ -94,6 +95,7 @@ public partial class UIModule : BaseGameModule
         //GameManager.Input.SetEnable(true);
     }
 
+    // 获取指定模式下最顶层的Mediator的sortingOrder值
     private int GetTopMediatorSortingOrder(UIMode mode)
     {
         int lastIndexMediatorOfMode = -1;
@@ -113,6 +115,7 @@ public partial class UIModule : BaseGameModule
         return usingMediators[lastIndexMediatorOfMode].SortingOrder;
     }
 
+    // 根据UIViewID获取对应的Mediator实例
     private UIMediator GetMediator(UIViewID id)
     {
         CacheUIMapping();
@@ -142,6 +145,7 @@ public partial class UIModule : BaseGameModule
         return mediator;
     }
 
+    // 回收Mediator到空闲队列中
     private void RecycleMediator(UIMediator mediator)
     {
         if (mediator == null)
@@ -156,6 +160,7 @@ public partial class UIModule : BaseGameModule
         mediatorQ.Enqueue(mediator);
     }
 
+    // 获取正在打开的UI对应的Mediator实例
     public UIMediator GetOpeningUIMediator(UIViewID id)
     {
         UIConfig uiConfig = UIConfig.ByID((int)id);
@@ -175,6 +180,7 @@ public partial class UIModule : BaseGameModule
         return null;
     }
 
+    // 将指定UI的Mediator移到最顶层
     public void BringToTop(UIViewID id)
     {
         UIMediator mediator = GetOpeningUIMediator(id);
@@ -198,11 +204,13 @@ public partial class UIModule : BaseGameModule
         }
     }
 
+    // 判断指定的UI是否已经打开
     public bool IsUIOpened(UIViewID id)
     {
         return GetOpeningUIMediator(id) != null;
     }
 
+    // 打开指定的UI，并返回对应的Mediator实例
     public UIMediator OpenUISingle(UIViewID id, object arg = null)
     {
         UIMediator mediator = GetOpeningUIMediator(id);
@@ -212,6 +220,7 @@ public partial class UIModule : BaseGameModule
         return OpenUI(id, arg);
     }
 
+    // 打开指定的UI，并返回对应的Mediator实例
     public UIMediator OpenUI(UIViewID id, object arg = null)
     {
         UIConfig uiConfig = UIConfig.ByID((int)id);
@@ -230,6 +239,7 @@ public partial class UIModule : BaseGameModule
         return OnUIObjectLoaded(mediator, uiConfig, uiObject, arg);
     }
 
+    // 异步打开指定的UI，并返回对应的Mediator实例
     public IEnumerator OpenUISingleAsync(UIViewID id, object arg = null)
     {
         if (!IsUIOpened(id))
@@ -238,7 +248,8 @@ public partial class UIModule : BaseGameModule
         }
     }
 
-    public IEnumerator OpenUIAsync(UIViewID id, object arg = null)
+    // 异步打开指定的UI，并返回对应的Mediator实例
+    public IEnumerator OpenUIAsync(UIViewID id,  object arg = null)
     {
         UIConfig uiConfig = UIConfig.ByID((int)id);
         if (uiConfig.IsNull)
@@ -267,6 +278,7 @@ public partial class UIModule : BaseGameModule
         yield return null;
     }
 
+    // 当UI对象加载完成后的回调方法
     private UIMediator OnUIObjectLoaded(UIMediator mediator, UIConfig uiConfig, GameObject uiObject, object obj)
     {
         if (uiObject == null)
@@ -312,6 +324,7 @@ public partial class UIModule : BaseGameModule
         return mediator;
     }
 
+    // 关闭指定的UI
     public void CloseUI(UIMediator mediator)
     {
         if (mediator != null)
@@ -328,6 +341,7 @@ public partial class UIModule : BaseGameModule
         }
     }
 
+    // 关闭所有UI
     public void CloseAllUI()
     {
         for (int i = usingMediators.Count - 1; i >= 0; i--)
@@ -336,6 +350,7 @@ public partial class UIModule : BaseGameModule
         }
     }
 
+    // 关闭指定的UI
     public void CloseUI(UIViewID id)
     {
         UIMediator mediator = GetOpeningUIMediator(id);
@@ -345,22 +360,26 @@ public partial class UIModule : BaseGameModule
         CloseUI(mediator);
     }
 
+    // 设置所有普通UI的可见性
     public void SetAllNormalUIVisibility(bool visible)
     {
         normalUIRoot.gameObject.SetActive(visible);
     }
 
+    // 设置所有模态UI的可见性
     public void SetAllModalUIVisibility(bool visible)
     {
         modalUIRoot.gameObject.SetActive(visible);
     }
 
+    // 显示遮罩
     public void ShowMask(float duration = 0.5f)
     {
         destMaskAlpha = 1;
         maskDuration = duration;
     }
 
+    // 隐藏遮罩
     public void HideMask(float? duration = null)
     {
         destMaskAlpha = 0;
@@ -381,13 +400,14 @@ public partial class UIModule : BaseGameModule
         imgMask.enabled = imgMask.color.a > 0;
     }
 
+    // 显示Quantum Console
     public void ShowConsole()
     {
         quantumConsole.Activate();
     }
 }
 
-
+// UIView的特性，用于绑定Mediator
 [AttributeUsage(AttributeTargets.Class, Inherited = false, AllowMultiple = false)]
 sealed class UIViewAttribute : Attribute
 {
