@@ -22,9 +22,10 @@ public class GameManager : MonoBehaviour
     /// <summary>
     /// 消息组件
     /// </summary>
-      [Module(7)]
-      public static MessageModule Message { get => TGameFramework.Instance.GetModule<MessageModule>(); }
-     
+    [Module(6)]
+    public static MessageModule Message { get => TGameFramework.Instance.GetModule<MessageModule>(); }
+    [Module(7)]
+    public static ECSModule ECS { get => TGameFramework.Instance.GetModule<ECSModule>(); }
 
 
 
