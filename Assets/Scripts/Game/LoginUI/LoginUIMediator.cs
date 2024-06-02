@@ -13,9 +13,15 @@ public class LoginUIMediator : UIMediator<LoginUIView>
     protected override void OnInit(LoginUIView view)
     {
         base.OnInit(view);
+        
     }
 
-
-
-
+    protected override void OnShow(object arg)
+    {
+        base.OnShow(arg);
+        view.close.onClick.AddListener(() =>
+        {
+            GameManager.UI.CloseUI(UIViewID.LoginUI);
+        });
+    }
 }

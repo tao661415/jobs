@@ -8,6 +8,7 @@ public class LaunchProcedure : BaseProcedure
     public override async Task OnEnterProcedure(object value)
     {
         Debug.Log("enter LaunchProcedure");
+        GameManager.ECS.World.AddComponent<TestComponent>();
         ConfigManager.LoadAllConfigsByAddressable("Assets/BundleAssets/Config");
         await LoadConfigs();
         await ChangeProcedure<InitProcedure>();

@@ -59,7 +59,7 @@ public class GameManager : MonoBehaviour
         TGameFramework.Instance.StartModules();
         Procedure.StartProcedure().Coroutine();
         Message.Post<MessageType.RequestAllInfo>(new MessageType.RequestAllInfo()).Coroutine();
-        
+        UI.OpenUI(UIViewID.LoginUI);
     }
     
     private void Update()
